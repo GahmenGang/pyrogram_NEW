@@ -2,20 +2,11 @@
 <html class="no-js" lang="en" data-content_root="../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark">
-
-    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
-    <meta property="article:published_time" content="">
-    <meta property="article:modified_time" content="">
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="https://t.me/PyroTGFork/2" />
-    <meta property="article:author" content="@PyroTGFork" />
-    <meta property="telegram:channel" content="@PyroTGFork" /><link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" />
 
     <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>Changes in this Fork - PyroTGFork 2.2.9 Layer 200</title>
+        <title>Changes in this Fork - PyroTGFork 2.2.12 Layer 203</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
@@ -124,10 +115,6 @@
   <div class="visually-hidden">Hide table of contents sidebar</div>
 </label>
 
-<!--
-<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
--->
-
 
 
 <div class="page">
@@ -139,14 +126,13 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">PyroTGFork 2.2.9 Layer 200</div></a>
+      <a href="../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
@@ -160,16 +146,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><!-- https://github.com/pradyunsg/furo/blob/5527d43/src/furo/theme/furo/sidebar/brand.html -->
-<a class="sidebar-brand" href="../index.html">
-    
-    <div class="sidebar-logo-container">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="../_static/pyrogram.png" alt="Logo"/>
-    <div class="pyrogram-text">PyroTGFork</div>
-    </div>
-    
-    <!--span class="sidebar-brand-text">PyroTGFork 2.2.9 Layer 200</span-->
-    
+  </div>
+  
+  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
@@ -297,6 +281,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/retract_vote.html">retract_vote</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/translate_text.html">translate_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/translate_message_text.html">translate_message_text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/delete_chat_history.html">delete_chat_history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -421,7 +407,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_custom_emoji_stickers.html">get_custom_emoji_stickers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_message_effects.html">get_message_effects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_stickers.html">get_stickers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/can_post_story.html">can_post_story</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_stories.html">get_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/get_chat_active_stories.html">get_chat_active_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/get_chat_archived_stories.html">get_chat_archived_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/post_story.html">post_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/edit_story.html">edit_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/edit_business_story.html">edit_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/delete_stories.html">delete_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/delete_business_story.html">delete_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/hide_my_story_view.html">hide_my_story_view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/forward_story.html">forward_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/toggle_story_is_posted_to_chat_page.html">toggle_story_is_posted_to_chat_page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/send_invoice.html">send_invoice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/create_invoice_link.html">create_invoice_link</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/answer_shipping_query.html">answer_shipping_query</a></li>
@@ -437,6 +434,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/send_gift.html">send_gift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/toggle_gift_is_saved.html">toggle_gift_is_saved</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_owned_star_count.html">get_owned_star_count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/methods/get_business_account_star_balance.html">get_business_account_star_balance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/create_video_chat.html">create_video_chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/discard_group_call.html">discard_group_call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/methods/get_video_chat_rtmp_url.html">get_video_chat_rtmp_url</a></li>
@@ -540,6 +538,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/types/VideoChatStarted.html">VideoChatStarted</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/EmojiStatus.html">EmojiStatus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/GroupCallParticipant.html">GroupCallParticipant</a></li>
@@ -628,6 +628,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/types/ActiveSessions.html">ActiveSessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/SentCode.html">SentCode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/TermsOfService.html">TermsOfService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/BusinessBotRights.html">BusinessBotRights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/BusinessConnection.html">BusinessConnection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/BusinessIntro.html">BusinessIntro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/BusinessLocation.html">BusinessLocation</a></li>
@@ -649,6 +650,37 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/types/PaidReactionTypeAnonymous.html">PaidReactionTypeAnonymous</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/PaidReactionTypeChat.html">PaidReactionTypeChat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/types/PaidReactionTypeRegular.html">PaidReactionTypeRegular</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResult.html">CanPostStoryResult</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultOk.html">CanPostStoryResultOk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultPremiumNeeded.html">CanPostStoryResultPremiumNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultBoostNeeded.html">CanPostStoryResultBoostNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultActiveStoryLimitExceeded.html">CanPostStoryResultActiveStoryLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultWeeklyLimitExceeded.html">CanPostStoryResultWeeklyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/CanPostStoryResultMonthlyLimitExceeded.html">CanPostStoryResultMonthlyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/InputStoryContent.html">InputStoryContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/InputStoryContentPhoto.html">InputStoryContentPhoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/InputStoryContentVideo.html">InputStoryContentVideo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaPosition.html">StoryAreaPosition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/LocationAddress.html">LocationAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaType.html">StoryAreaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeFoundVenue.html">StoryAreaTypeFoundVenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeLocation.html">StoryAreaTypeLocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeSuggestedReaction.html">StoryAreaTypeSuggestedReaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeLink.html">StoryAreaTypeLink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeMessage.html">StoryAreaTypeMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeWeather.html">StoryAreaTypeWeather</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryAreaTypeUniqueGift.html">StoryAreaTypeUniqueGift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryArea.html">StoryArea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryRepostInfo.html">StoryRepostInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryOrigin.html">StoryOrigin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryOriginHiddenUser.html">StoryOriginHiddenUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryOriginPublicStory.html">StoryOriginPublicStory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryPrivacySettings.html">StoryPrivacySettings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryPrivacySettingsEveryone.html">StoryPrivacySettingsEveryone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryPrivacySettingsContacts.html">StoryPrivacySettingsContacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryPrivacySettingsCloseFriends.html">StoryPrivacySettingsCloseFriends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryPrivacySettingsSelectedUsers.html">StoryPrivacySettingsSelectedUsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/types/StoryStealthMode.html">StoryStealthMode</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../api/bound-methods/index.html">Bound Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Bound Methods</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -745,6 +777,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/ClientPlatform.html">ClientPlatform</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/MessageEntityType.html">MessageEntityType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/MessageMediaType.html">MessageMediaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/enums/MessageOriginType.html">MessageOriginType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/MessageServiceType.html">MessageServiceType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/MessagesFilter.html">MessagesFilter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api/enums/ParseMode.html">ParseMode</a></li>
@@ -834,43 +867,6 @@
   </aside>
   <div class="main">
     <div class="content">
-
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-      <div class="top-bar">
-          <div class="view-on-github">
-              <a href="https://github.com/TelegramPlayGround/pyrogram" style="font-size: 20px;">
-                  <i class="fa-brands fa-github"></i>
-                  View on GitHub
-              </a>
-          </div>
-          <div class="github-buttons">
-              <table id="stars-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/stargazers">
-                              <i class="fa fa-star"></i>
-                              Star
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-  
-              <!-- <table id="used-by-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/network/dependents">
-                              <i class="fa fa-code"></i>
-                              Used by
-                          </a>
-                      </td>
-                  </tr>
-              </table> -->
-          </div>
-      </div>
-  
-      <div class="horizontal-line"></div>
-  
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -879,11 +875,11 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
@@ -893,9 +889,8 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="article">
-            <article role="main" id="furo-main-content" class="article__content">
-            <section id="changes-in-this-fork">
+        <article role="main">
+          <section id="changes-in-this-fork">
 <h1>Changes in this Fork<a class="headerlink" href="#changes-in-this-fork" title="Link to this heading">#</a></h1>
 <div class="tip admonition">
 <p class="admonition-title">A Word of Warning</p>
@@ -911,14 +906,61 @@ it can take advantage of new goodies!</p>
 <section id="breaking-changes-in-this-fork">
 <h1>Breaking Changes in this Fork<a class="headerlink" href="#breaking-changes-in-this-fork" title="Link to this heading">#</a></h1>
 <ul class="simple">
+<li><p>In <a class="reference internal" href="../api/methods/copy_message.html#pyrogram.Client.copy_message" title="pyrogram.Client.copy_message"><code class="xref py py-meth docutils literal notranslate"><span class="pre">copy_message()</span></code></a>, <code class="docutils literal notranslate"><span class="pre">ValueError</span></code> is raised instead of <code class="docutils literal notranslate"><span class="pre">logging</span></code> it.</p></li>
 <li><p>In <a class="reference internal" href="../api/methods/download_media.html#pyrogram.Client.download_media" title="pyrogram.Client.download_media"><code class="xref py py-meth docutils literal notranslate"><span class="pre">download_media()</span></code></a>, if the message is a <a class="reference internal" href="../api/types/PaidMediaInfo.html#pyrogram.types.PaidMediaInfo" title="pyrogram.types.PaidMediaInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidMediaInfo</span></code></a> with more than one <code class="docutils literal notranslate"><span class="pre">paid_media</span></code> <strong>and</strong> <code class="docutils literal notranslate"><span class="pre">idx</span></code> was not specified, then a list of paths or binary file-like objects is returned.</p></li>
 <li><p>PR <a class="reference external" href="https://github.com/TelegramPlayGround/pyrogram/pull/115">#115</a> This <a class="reference external" href="https://github.com/pyrogram/pyrogram/pull/966#issuecomment-1108858881">change</a> breaks some usages with offset-naive and offset-aware datetimes.</p></li>
 <li><p>PR from upstream: <a class="reference external" href="https://github.com/pyrogram/pyrogram/pull/1411">#1411</a> without attribution.</p></li>
 <li><p>If you relied on internal types like <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pyrogram.file_id</span></code> OR <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pyrogram.utils</span></code>, Then read this full document to know where <a class="reference external" href="https://t.me/PyrogramChat/42497">else</a> your code will break.</p></li>
+<li><p><a class="reference internal" href="../api/types/InlineKeyboardButton.html#pyrogram.types.InlineKeyboardButton" title="pyrogram.types.InlineKeyboardButton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InlineKeyboardButton</span></code></a> only accepts keyword arguments instead of positional arguments.</p></li>
 </ul>
 </section>
 <section id="id3">
 <h1>Changes in this Fork<a class="headerlink" href="#id3" title="Link to this heading">#</a></h1>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Scheme layer used: 203</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="simple">
+<li><p>View <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdlib.html?from=202&amp;to=203">new and changed</a> <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdesktop.html?from=202&amp;to=203">raw API methods</a>.</p></li>
+</ul>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Scheme layer used: 202</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="simple">
+<li><p>Added the method <a class="reference internal" href="../api/methods/post_story.html#pyrogram.Client.post_story" title="pyrogram.Client.post_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">post_story()</span></code></a> allowing bots to post a story on behalf of a managed business account.</p></li>
+<li><p>Added the method <a class="reference internal" href="../api/methods/edit_story.html#pyrogram.Client.edit_story" title="pyrogram.Client.edit_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">edit_story()</span></code></a> and <a class="reference internal" href="../api/methods/edit_business_story.html#pyrogram.Client.edit_business_story" title="pyrogram.Client.edit_business_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">edit_business_story()</span></code></a>, allowing bots to edit stories they had previously posted on behalf of a managed business account.</p></li>
+<li><p>Added the methods <a class="reference internal" href="../api/methods/delete_stories.html#pyrogram.Client.delete_stories" title="pyrogram.Client.delete_stories"><code class="xref py py-meth docutils literal notranslate"><span class="pre">delete_stories()</span></code></a> and <a class="reference internal" href="../api/methods/delete_business_story.html#pyrogram.Client.delete_business_story" title="pyrogram.Client.delete_business_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">delete_business_story()</span></code></a>, allowing bots to delete stories they had previously posted on behalf of a managed business account.</p></li>
+<li><p>Added the classes <a class="reference internal" href="../api/types/InputStoryContentPhoto.html#pyrogram.types.InputStoryContentPhoto" title="pyrogram.types.InputStoryContentPhoto"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InputStoryContentPhoto</span></code></a> and <a class="reference internal" href="../api/types/InputStoryContentVideo.html#pyrogram.types.InputStoryContentVideo" title="pyrogram.types.InputStoryContentVideo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InputStoryContentVideo</span></code></a> representing the content of a story to post.</p></li>
+<li><p>Added the classes <a class="reference internal" href="../api/types/StoryArea.html#pyrogram.types.StoryArea" title="pyrogram.types.StoryArea"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryArea</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaPosition.html#pyrogram.types.StoryAreaPosition" title="pyrogram.types.StoryAreaPosition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaPosition</span></code></a>, <a class="reference internal" href="../api/types/LocationAddress.html#pyrogram.types.LocationAddress" title="pyrogram.types.LocationAddress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LocationAddress</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeLocation.html#pyrogram.types.StoryAreaTypeLocation" title="pyrogram.types.StoryAreaTypeLocation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeLocation</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeSuggestedReaction.html#pyrogram.types.StoryAreaTypeSuggestedReaction" title="pyrogram.types.StoryAreaTypeSuggestedReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeSuggestedReaction</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeLink.html#pyrogram.types.StoryAreaTypeLink" title="pyrogram.types.StoryAreaTypeLink"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeLink</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeWeather.html#pyrogram.types.StoryAreaTypeWeather" title="pyrogram.types.StoryAreaTypeWeather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeWeather</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeUniqueGift.html#pyrogram.types.StoryAreaTypeUniqueGift" title="pyrogram.types.StoryAreaTypeUniqueGift"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeUniqueGift</span></code></a>, <a class="reference internal" href="../api/types/StoryAreaTypeFoundVenue.html#pyrogram.types.StoryAreaTypeFoundVenue" title="pyrogram.types.StoryAreaTypeFoundVenue"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeFoundVenue</span></code></a> and <a class="reference internal" href="../api/types/StoryAreaTypeMessage.html#pyrogram.types.StoryAreaTypeMessage" title="pyrogram.types.StoryAreaTypeMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeMessage</span></code></a> describing clickable active areas on stories.</p></li>
+<li><p>Added the classes <a class="reference internal" href="../api/types/StoryPrivacySettings.html#pyrogram.types.StoryPrivacySettings" title="pyrogram.types.StoryPrivacySettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettings</span></code></a>, <a class="reference internal" href="../api/types/StoryPrivacySettingsEveryone.html#pyrogram.types.StoryPrivacySettingsEveryone" title="pyrogram.types.StoryPrivacySettingsEveryone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsEveryone</span></code></a>, <a class="reference internal" href="../api/types/StoryPrivacySettingsContacts.html#pyrogram.types.StoryPrivacySettingsContacts" title="pyrogram.types.StoryPrivacySettingsContacts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsContacts</span></code></a>, <a class="reference internal" href="../api/types/StoryPrivacySettingsCloseFriends.html#pyrogram.types.StoryPrivacySettingsCloseFriends" title="pyrogram.types.StoryPrivacySettingsCloseFriends"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsCloseFriends</span></code></a>, <a class="reference internal" href="../api/types/StoryPrivacySettingsSelectedUsers.html#pyrogram.types.StoryPrivacySettingsSelectedUsers" title="pyrogram.types.StoryPrivacySettingsSelectedUsers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsSelectedUsers</span></code></a> to describe the privacy settings of a story.</p></li>
+<li><p>Added the methods <a class="reference internal" href="../api/methods/can_post_story.html#pyrogram.Client.can_post_story" title="pyrogram.Client.can_post_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">can_post_story()</span></code></a>, <a class="reference internal" href="../api/methods/hide_my_story_view.html#pyrogram.Client.hide_my_story_view" title="pyrogram.Client.hide_my_story_view"><code class="xref py py-meth docutils literal notranslate"><span class="pre">hide_my_story_view()</span></code></a>, <a class="reference internal" href="../api/methods/forward_story.html#pyrogram.Client.forward_story" title="pyrogram.Client.forward_story"><code class="xref py py-meth docutils literal notranslate"><span class="pre">forward_story()</span></code></a>,  <a class="reference internal" href="../api/methods/toggle_story_is_posted_to_chat_page.html#pyrogram.Client.toggle_story_is_posted_to_chat_page" title="pyrogram.Client.toggle_story_is_posted_to_chat_page"><code class="xref py py-meth docutils literal notranslate"><span class="pre">toggle_story_is_posted_to_chat_page()</span></code></a>,  <a class="reference internal" href="../api/methods/get_chat_active_stories.html#pyrogram.Client.get_chat_active_stories" title="pyrogram.Client.get_chat_active_stories"><code class="xref py py-meth docutils literal notranslate"><span class="pre">get_chat_active_stories()</span></code></a>,  <a class="reference internal" href="../api/methods/get_chat_archived_stories.html#pyrogram.Client.get_chat_archived_stories" title="pyrogram.Client.get_chat_archived_stories"><code class="xref py py-meth docutils literal notranslate"><span class="pre">get_chat_archived_stories()</span></code></a>.</p></li>
+<li><p>Add support for parsing story links in <a class="reference internal" href="../api/methods/get_messages.html#pyrogram.Client.get_messages" title="pyrogram.Client.get_messages"><code class="xref py py-meth docutils literal notranslate"><span class="pre">get_messages()</span></code></a>.</p></li>
+<li><p>View <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdlib.html?from=201&amp;to=202">new and changed</a> <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdesktop.html?from=200&amp;to=202">raw API methods</a>.</p></li>
+</ul>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p>Scheme layer used: 201</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class="simple">
+<li><p>Renamed the field <code class="docutils literal notranslate"><span class="pre">paid_message_star_count</span></code> to <code class="docutils literal notranslate"><span class="pre">paid_star_count</span></code> in the <a class="reference internal" href="../api/types/Message.html#pyrogram.types.Message" title="pyrogram.types.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a>, containing the number of Telegram Stars that were paid to send the message.</p></li>
+<li><p>Added the classes <a class="reference internal" href="../api/types/PaidMessagePriceChanged.html#pyrogram.types.PaidMessagePriceChanged" title="pyrogram.types.PaidMessagePriceChanged"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidMessagePriceChanged</span></code></a> and <a class="reference internal" href="../api/types/PaidMessagesRefunded.html#pyrogram.types.PaidMessagesRefunded" title="pyrogram.types.PaidMessagesRefunded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidMessagesRefunded</span></code></a> and the fields <code class="docutils literal notranslate"><span class="pre">paid_message_price_changed</span></code> and <code class="docutils literal notranslate"><span class="pre">paid_messages_refunded</span></code> to the <a class="reference internal" href="../api/types/Message.html#pyrogram.types.Message" title="pyrogram.types.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a>, describing the appropriate service message.</p></li>
+<li><p>Added the <a class="reference internal" href="../api/methods/get_business_account_star_balance.html#pyrogram.Client.get_business_account_star_balance" title="pyrogram.Client.get_business_account_star_balance"><code class="xref py py-meth docutils literal notranslate"><span class="pre">get_business_account_star_balance()</span></code></a>, allowing bots to check the current Telegram Star balance of a managed business account.</p></li>
+<li><p>Added the <a class="reference internal" href="../api/types/BusinessBotRights.html#pyrogram.types.BusinessBotRights" title="pyrogram.types.BusinessBotRights"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessBotRights</span></code></a> and replaced the field <code class="docutils literal notranslate"><span class="pre">can_reply</span></code> with the field <code class="docutils literal notranslate"><span class="pre">rights</span></code> of the type <a class="reference internal" href="../api/types/BusinessBotRights.html#pyrogram.types.BusinessBotRights" title="pyrogram.types.BusinessBotRights"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessBotRights</span></code></a> in the <a class="reference internal" href="../api/types/BusinessConnection.html#pyrogram.types.BusinessConnection" title="pyrogram.types.BusinessConnection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessConnection</span></code></a>.</p></li>
+<li><p>View <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdlib.html?from=200&amp;to=201">new and changed</a> <a class="reference external" href="https://telegramplayground.github.io/TG-APIs/TL/diff/tdesktop.html?from=200&amp;to=201">raw API methods</a>.</p></li>
+</ul>
 <div class="table-wrapper docutils container">
 <table class="docutils align-default">
 <tbody>
@@ -928,6 +970,14 @@ it can take advantage of new goodies!</p>
 </table>
 </div>
 <ul class="simple">
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">sizes</span></code> to <a class="reference internal" href="../api/types/Photo.html#pyrogram.types.Photo" title="pyrogram.types.Photo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Photo</span></code></a> to return all available sizes.</p></li>
+<li><p>Add <a class="reference internal" href="../api/methods/send_screenshot_notification.html#pyrogram.Client.send_screenshot_notification" title="pyrogram.Client.send_screenshot_notification"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_screenshot_notification()</span></code></a>.</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">media</span></code> in <a class="reference internal" href="../api/types/ExternalReplyInfo.html#pyrogram.types.ExternalReplyInfo" title="pyrogram.types.ExternalReplyInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ExternalReplyInfo</span></code></a>.</p></li>
+<li><p>Add <a class="reference internal" href="../api/enums/MessageOriginType.html#pyrogram.enums.MessageOriginType" title="pyrogram.enums.MessageOriginType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MessageOriginType</span></code></a> as enum instead of str, and updated the appropriate filters.</p></li>
+<li><p>Document about <a class="reference external" href="https://github.com/TelegramPlayGround/pyrogram/issues/161">the issue #161</a>.</p></li>
+<li><p>Make <a class="reference external" href="https://github.com/KurimuzonAkuma/pyrogram/commit/7cab86a9eee4bd57ac96a1713f9bd37a7fc0ac09">User.block/unblock/get_common_chats async</a>, <a class="reference external" href="https://github.com/KurimuzonAkuma/pyrogram/commit/f7f83de4331d6358332dbd0458755e28d59ec0f0">Fix examples</a> and <a class="reference external" href="https://github.com/KurimuzonAkuma/pyrogram/commit/f98b92765634f862310b21783b186fce66877a24">Fix docs</a>.</p></li>
+<li><p>Try to return the service message (when applicable) in the method <a class="reference internal" href="../api/methods/set_chat_title.html#pyrogram.Client.set_chat_title" title="pyrogram.Client.set_chat_title"><code class="xref py py-meth docutils literal notranslate"><span class="pre">set_chat_title()</span></code></a>.</p></li>
+<li><p>Added <a class="reference internal" href="../api/methods/delete_chat_history.html#pyrogram.Client.delete_chat_history" title="pyrogram.Client.delete_chat_history"><code class="xref py py-meth docutils literal notranslate"><span class="pre">delete_chat_history()</span></code></a>.</p></li>
 <li><p>Rename <code class="docutils literal notranslate"><span class="pre">UserGift</span></code> to <a class="reference internal" href="../api/types/ReceivedGift.html#pyrogram.types.ReceivedGift" title="pyrogram.types.ReceivedGift"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ReceivedGift</span></code></a>, <code class="docutils literal notranslate"><span class="pre">get_user_gifts</span></code> to <a class="reference internal" href="../api/methods/get_received_gifts.html#pyrogram.Client.get_received_gifts" title="pyrogram.Client.get_received_gifts"><code class="xref py py-meth docutils literal notranslate"><span class="pre">get_received_gifts()</span></code></a> and the corresponding fields appropriately.</p></li>
 <li><p>Added the field <code class="docutils literal notranslate"><span class="pre">paid_message_star_count</span></code> to the classes <a class="reference internal" href="../api/types/Chat.html#pyrogram.types.Chat" title="pyrogram.types.Chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Chat</span></code></a>, <a class="reference internal" href="../api/types/Message.html#pyrogram.types.Message" title="pyrogram.types.Message"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Message</span></code></a> and <a class="reference internal" href="../api/types/User.html#pyrogram.types.User" title="pyrogram.types.User"><code class="xref py py-obj docutils literal notranslate"><span class="pre">User</span></code></a>.</p></li>
 <li><p>Added the parameter <code class="docutils literal notranslate"><span class="pre">paid_message_star_count</span></code> to the methods <a class="reference internal" href="../api/methods/copy_media_group.html#pyrogram.Client.copy_media_group" title="pyrogram.Client.copy_media_group"><code class="xref py py-meth docutils literal notranslate"><span class="pre">copy_media_group()</span></code></a>, <a class="reference internal" href="../api/methods/send_game.html#pyrogram.Client.send_game" title="pyrogram.Client.send_game"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_game()</span></code></a>, <a class="reference internal" href="../api/methods/send_invoice.html#pyrogram.Client.send_invoice" title="pyrogram.Client.send_invoice"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_invoice()</span></code></a>, <a class="reference internal" href="../api/methods/forward_messages.html#pyrogram.Client.forward_messages" title="pyrogram.Client.forward_messages"><code class="xref py py-meth docutils literal notranslate"><span class="pre">forward_messages()</span></code></a>, <a class="reference internal" href="../api/methods/send_animation.html#pyrogram.Client.send_animation" title="pyrogram.Client.send_animation"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_animation()</span></code></a>, <a class="reference internal" href="../api/methods/send_audio.html#pyrogram.Client.send_audio" title="pyrogram.Client.send_audio"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_audio()</span></code></a>, <a class="reference internal" href="../api/methods/send_cached_media.html#pyrogram.Client.send_cached_media" title="pyrogram.Client.send_cached_media"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_cached_media()</span></code></a>, <a class="reference internal" href="../api/methods/send_contact.html#pyrogram.Client.send_contact" title="pyrogram.Client.send_contact"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_contact()</span></code></a>, <a class="reference internal" href="../api/methods/send_dice.html#pyrogram.Client.send_dice" title="pyrogram.Client.send_dice"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_dice()</span></code></a>, <a class="reference internal" href="../api/methods/send_document.html#pyrogram.Client.send_document" title="pyrogram.Client.send_document"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_document()</span></code></a>, <a class="reference internal" href="../api/methods/send_location.html#pyrogram.Client.send_location" title="pyrogram.Client.send_location"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_location()</span></code></a>, <a class="reference internal" href="../api/methods/send_media_group.html#pyrogram.Client.send_media_group" title="pyrogram.Client.send_media_group"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_media_group()</span></code></a>, <a class="reference internal" href="../api/methods/send_message.html#pyrogram.Client.send_message" title="pyrogram.Client.send_message"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_message()</span></code></a>, <a class="reference internal" href="../api/methods/send_paid_media.html#pyrogram.Client.send_paid_media" title="pyrogram.Client.send_paid_media"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_paid_media()</span></code></a>, <a class="reference internal" href="../api/methods/send_photo.html#pyrogram.Client.send_photo" title="pyrogram.Client.send_photo"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_photo()</span></code></a>, <a class="reference internal" href="../api/methods/send_poll.html#pyrogram.Client.send_poll" title="pyrogram.Client.send_poll"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_poll()</span></code></a>, <a class="reference internal" href="../api/methods/send_sticker.html#pyrogram.Client.send_sticker" title="pyrogram.Client.send_sticker"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_sticker()</span></code></a>, <a class="reference internal" href="../api/methods/send_venue.html#pyrogram.Client.send_venue" title="pyrogram.Client.send_venue"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_venue()</span></code></a>, <a class="reference internal" href="../api/methods/send_video_note.html#pyrogram.Client.send_video_note" title="pyrogram.Client.send_video_note"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_video_note()</span></code></a>, <a class="reference internal" href="../api/methods/send_video.html#pyrogram.Client.send_video" title="pyrogram.Client.send_video"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_video()</span></code></a>, <a class="reference internal" href="../api/methods/send_voice.html#pyrogram.Client.send_voice" title="pyrogram.Client.send_voice"><code class="xref py py-meth docutils literal notranslate"><span class="pre">send_voice()</span></code></a> and the bound methods <a class="reference internal" href="../api/bound-methods/Message.forward.html#pyrogram.types.Message.forward" title="pyrogram.types.Message.forward"><code class="xref py py-meth docutils literal notranslate"><span class="pre">forward()</span></code></a> and <a class="reference internal" href="../api/bound-methods/Message.copy.html#pyrogram.types.Message.copy" title="pyrogram.types.Message.copy"><code class="xref py py-meth docutils literal notranslate"><span class="pre">copy()</span></code></a>.</p></li>
@@ -1516,8 +1566,7 @@ it can take advantage of new goodies!</p>
 </ul>
 </section>
 
-            </article>
-        </div>
+        </article>
       </div>
       <footer>
         
@@ -1534,7 +1583,7 @@ it can take advantage of new goodies!</p>
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/c64b851" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
@@ -1556,22 +1605,5 @@ it can take advantage of new goodies!</p>
     <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=a56c686a"></script>
-    <!--script defer>
-      fetch("https://counters.pyrogram.org").then(res => res.json()).then(data => {
-            const stars = data.stars
-            const usedBy = data.forks
-
-            if (stars && usedBy) {
-                const starsTable = document.getElementById("stars-table");
-                const starsTd = document.createElement("td");
-                starsTd.innerText = stars.toLocaleString();
-                starsTable.children[0].children[0].appendChild(starsTd);
-
-              /*  const usedByTable = document.getElementById("used-by-table");
-                const usedByTd = document.createElement("td");
-                usedByTd.innerText = usedBy.toLocaleString();
-                usedByTable.children[0].children[0].appendChild(usedByTd); */
-            }
-        });
-    </script--></body>
+    </body>
 </html>

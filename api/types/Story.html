@@ -2,20 +2,11 @@
 <html class="no-js" lang="en" data-content_root="../../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark">
-
-    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
-    <meta property="article:published_time" content="">
-    <meta property="article:modified_time" content="">
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="https://t.me/PyroTGFork/2" />
-    <meta property="article:author" content="@PyroTGFork" />
-    <meta property="telegram:channel" content="@PyroTGFork" /><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Video" href="Video.html" /><link rel="prev" title="Document" href="Document.html" />
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Video" href="Video.html" /><link rel="prev" title="Document" href="Document.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>Story - PyroTGFork 2.2.9 Layer 200</title>
+        <title>Story - PyroTGFork 2.2.12 Layer 203</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -124,10 +115,6 @@
   <div class="visually-hidden">Hide table of contents sidebar</div>
 </label>
 
-<!--
-<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
--->
-
 
 
 <div class="page">
@@ -139,14 +126,13 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.9 Layer 200</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
@@ -160,16 +146,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><!-- https://github.com/pradyunsg/furo/blob/5527d43/src/furo/theme/furo/sidebar/brand.html -->
-<a class="sidebar-brand" href="../../index.html">
-    
-    <div class="sidebar-logo-container">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
-    <div class="pyrogram-text">PyroTGFork</div>
-    </div>
-    
-    <!--span class="sidebar-brand-text">PyroTGFork 2.2.9 Layer 200</span-->
-    
+  </div>
+  
+  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
@@ -297,6 +281,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/retract_vote.html">retract_vote</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_text.html">translate_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_message_text.html">translate_message_text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_chat_history.html">delete_chat_history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -421,7 +407,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_custom_emoji_stickers.html">get_custom_emoji_stickers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_message_effects.html">get_message_effects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stickers.html">get_stickers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/can_post_story.html">can_post_story</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stories.html">get_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_active_stories.html">get_chat_active_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_archived_stories.html">get_chat_archived_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/post_story.html">post_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_story.html">edit_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_business_story.html">edit_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_stories.html">delete_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_business_story.html">delete_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/hide_my_story_view.html">hide_my_story_view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/forward_story.html">forward_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/toggle_story_is_posted_to_chat_page.html">toggle_story_is_posted_to_chat_page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_invoice.html">send_invoice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_invoice_link.html">create_invoice_link</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/answer_shipping_query.html">answer_shipping_query</a></li>
@@ -437,6 +434,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_gift.html">send_gift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/toggle_gift_is_saved.html">toggle_gift_is_saved</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_owned_star_count.html">get_owned_star_count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_business_account_star_balance.html">get_business_account_star_balance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_video_chat.html">create_video_chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/discard_group_call.html">discard_group_call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_video_chat_rtmp_url.html">get_video_chat_rtmp_url</a></li>
@@ -540,6 +538,8 @@
 <li class="toctree-l2"><a class="reference internal" href="VideoChatStarted.html">VideoChatStarted</a></li>
 <li class="toctree-l2"><a class="reference internal" href="VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="EmojiStatus.html">EmojiStatus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="GroupCallParticipant.html">GroupCallParticipant</a></li>
@@ -628,6 +628,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ActiveSessions.html">ActiveSessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="SentCode.html">SentCode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="TermsOfService.html">TermsOfService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BusinessBotRights.html">BusinessBotRights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessConnection.html">BusinessConnection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessIntro.html">BusinessIntro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessLocation.html">BusinessLocation</a></li>
@@ -649,6 +650,37 @@
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeAnonymous.html">PaidReactionTypeAnonymous</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeChat.html">PaidReactionTypeChat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeRegular.html">PaidReactionTypeRegular</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResult.html">CanPostStoryResult</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultOk.html">CanPostStoryResultOk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultPremiumNeeded.html">CanPostStoryResultPremiumNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultBoostNeeded.html">CanPostStoryResultBoostNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultActiveStoryLimitExceeded.html">CanPostStoryResultActiveStoryLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultWeeklyLimitExceeded.html">CanPostStoryResultWeeklyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultMonthlyLimitExceeded.html">CanPostStoryResultMonthlyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContent.html">InputStoryContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContentPhoto.html">InputStoryContentPhoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContentVideo.html">InputStoryContentVideo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaPosition.html">StoryAreaPosition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LocationAddress.html">LocationAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaType.html">StoryAreaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeFoundVenue.html">StoryAreaTypeFoundVenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeLocation.html">StoryAreaTypeLocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeSuggestedReaction.html">StoryAreaTypeSuggestedReaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeLink.html">StoryAreaTypeLink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeMessage.html">StoryAreaTypeMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeWeather.html">StoryAreaTypeWeather</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeUniqueGift.html">StoryAreaTypeUniqueGift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryArea.html">StoryArea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryRepostInfo.html">StoryRepostInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOrigin.html">StoryOrigin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOriginHiddenUser.html">StoryOriginHiddenUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOriginPublicStory.html">StoryOriginPublicStory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettings.html">StoryPrivacySettings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsEveryone.html">StoryPrivacySettingsEveryone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsContacts.html">StoryPrivacySettingsContacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsCloseFriends.html">StoryPrivacySettingsCloseFriends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsSelectedUsers.html">StoryPrivacySettingsSelectedUsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryStealthMode.html">StoryStealthMode</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../bound-methods/index.html">Bound Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Bound Methods</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -745,6 +777,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../enums/ClientPlatform.html">ClientPlatform</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageEntityType.html">MessageEntityType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageMediaType.html">MessageMediaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../enums/MessageOriginType.html">MessageOriginType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageServiceType.html">MessageServiceType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessagesFilter.html">MessagesFilter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/ParseMode.html">ParseMode</a></li>
@@ -834,43 +867,6 @@
   </aside>
   <div class="main">
     <div class="content">
-
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-      <div class="top-bar">
-          <div class="view-on-github">
-              <a href="https://github.com/TelegramPlayGround/pyrogram" style="font-size: 20px;">
-                  <i class="fa-brands fa-github"></i>
-                  View on GitHub
-              </a>
-          </div>
-          <div class="github-buttons">
-              <table id="stars-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/stargazers">
-                              <i class="fa fa-star"></i>
-                              Star
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-  
-              <!-- <table id="used-by-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/network/dependents">
-                              <i class="fa fa-code"></i>
-                              Used by
-                          </a>
-                      </td>
-                  </tr>
-              </table> -->
-          </div>
-      </div>
-  
-      <div class="horizontal-line"></div>
-  
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -879,11 +875,11 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
@@ -893,9 +889,8 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="article">
-            <article role="main" id="furo-main-content" class="article__content">
-            <section id="story">
+        <article role="main">
+          <section id="story">
 <h1>Story<a class="headerlink" href="#story" title="Link to this heading">#</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="pyrogram.types.Story">
@@ -904,23 +899,27 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>chat</strong> (<a class="reference internal" href="Chat.html#pyrogram.types.Chat" title="pyrogram.types.Chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Chat</span></code></a>) – Chat that posted the story.</p></li>
-<li><p><strong>id</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – Unique identifier for the story in the chat.</p></li>
-<li><p><strong>date</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">datetime</span></code></a>, <em>optional</em>) – Date the story was sent.</p></li>
+<li><p><strong>id</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – Unique story identifier among stories of the given sender.</p></li>
+<li><p><strong>chat</strong> (<a class="reference internal" href="Chat.html#pyrogram.types.Chat" title="pyrogram.types.Chat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Chat</span></code></a>) – Identifier of the chat that posted the story.</p></li>
+<li><p><strong>date</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">datetime</span></code></a>, <em>optional</em>) – Date the story was published.</p></li>
 <li><p><strong>expire_date</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">datetime</span></code></a>, <em>optional</em>) – Date the story will be expired.</p></li>
+<li><p><strong>is_edited</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the story was edited.</p></li>
+<li><p><strong>is_posted_to_chat_page</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the story is saved in the sender’s profile and will be available there after expiration</p></li>
+<li><p><strong>is_visible_only_for_self</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the story is visible only for the current user.</p></li>
+<li><p><strong>repost_info</strong> (<a class="reference internal" href="StoryRepostInfo.html#pyrogram.types.StoryRepostInfo" title="pyrogram.types.StoryRepostInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryRepostInfo</span></code></a>, <em>optional</em>) – Information about the original story; may be None if the story wasn’t reposted.</p></li>
+<li><p><strong>privacy_settings</strong> (<a class="reference internal" href="StoryPrivacySettings.html#pyrogram.types.StoryPrivacySettings" title="pyrogram.types.StoryPrivacySettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettings</span></code></a>, <em>optional</em>) – Privacy rules affecting story visibility; may be approximate for non-owned stories.</p></li>
 <li><p><strong>media</strong> (<a class="reference internal" href="../enums/MessageMediaType.html#pyrogram.enums.MessageMediaType" title="pyrogram.enums.MessageMediaType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MessageMediaType</span></code></a>, <em>optional</em>) – The media type of the Story.
 This field will contain the enumeration type of the media message.
 You can use <code class="docutils literal notranslate"><span class="pre">media</span> <span class="pre">=</span> <span class="pre">getattr(story,</span> <span class="pre">story.media.value)</span></code> to access the media message.</p></li>
-<li><p><strong>has_protected_content</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the story can’t be forwarded.</p></li>
 <li><p><strong>photo</strong> (<a class="reference internal" href="Photo.html#pyrogram.types.Photo" title="pyrogram.types.Photo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Photo</span></code></a>, <em>optional</em>) – Story is a photo, information about the photo.</p></li>
 <li><p><strong>video</strong> (<a class="reference internal" href="Video.html#pyrogram.types.Video" title="pyrogram.types.Video"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Video</span></code></a>, <em>optional</em>) – Story is a video, information about the video.</p></li>
-<li><p><strong>edited</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the Story has been edited.</p></li>
-<li><p><strong>pinned</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the Story is pinned.</p></li>
 <li><p><strong>caption</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, <em>optional</em>) – Caption for the Story, 0-1024 characters.</p></li>
 <li><p><strong>caption_entities</strong> (List of <a class="reference internal" href="MessageEntity.html#pyrogram.types.MessageEntity" title="pyrogram.types.MessageEntity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MessageEntity</span></code></a>, <em>optional</em>) – For text messages, special entities like usernames, URLs, bot commands, etc. that appear in the caption.</p></li>
+<li><p><strong>areas</strong> (List of <a class="reference internal" href="StoryArea.html#pyrogram.types.StoryArea" title="pyrogram.types.StoryArea"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryArea</span></code></a>, <em>optional</em>) – Clickable areas to be shown on the story content.</p></li>
+<li><p><strong>has_protected_content</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – True, if the story can’t be forwarded.</p></li>
+<li><p><strong>reactions</strong> (List of <a class="reference internal" href="Reaction.html#pyrogram.types.Reaction" title="pyrogram.types.Reaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reaction</span></code></a>) – List of the reactions to this story.</p></li>
 <li><p><strong>views</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, <em>optional</em>) – Stories views.</p></li>
 <li><p><strong>forwards</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, <em>optional</em>) – Stories forwards.</p></li>
-<li><p><strong>reactions</strong> (List of <a class="reference internal" href="Reaction.html#pyrogram.types.Reaction" title="pyrogram.types.Reaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reaction</span></code></a>) – List of the reactions to this story.</p></li>
 <li><p><strong>skipped</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – The story is skipped.
 A story can be skipped in case it was skipped.</p></li>
 <li><p><strong>deleted</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – The story is deleted.
@@ -933,8 +932,7 @@ A story can be deleted in case it was deleted or you tried to retrieve a story t
 
 </section>
 
-            </article>
-        </div>
+        </article>
       </div>
       <footer>
         
@@ -969,7 +967,7 @@ A story can be deleted in case it was deleted or you tried to retrieve a story t
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/c64b851" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
@@ -1010,22 +1008,5 @@ A story can be deleted in case it was deleted or you tried to retrieve a story t
     <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=a56c686a"></script>
-    <!--script defer>
-      fetch("https://counters.pyrogram.org").then(res => res.json()).then(data => {
-            const stars = data.stars
-            const usedBy = data.forks
-
-            if (stars && usedBy) {
-                const starsTable = document.getElementById("stars-table");
-                const starsTd = document.createElement("td");
-                starsTd.innerText = stars.toLocaleString();
-                starsTable.children[0].children[0].appendChild(starsTd);
-
-              /*  const usedByTable = document.getElementById("used-by-table");
-                const usedByTd = document.createElement("td");
-                usedByTd.innerText = usedBy.toLocaleString();
-                usedByTable.children[0].children[0].appendChild(usedByTd); */
-            }
-        });
-    </script--></body>
+    </body>
 </html>

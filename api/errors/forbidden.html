@@ -2,20 +2,11 @@
 <html class="no-js" lang="en" data-content_root="../../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark">
-
-    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
-    <meta property="article:published_time" content="">
-    <meta property="article:modified_time" content="">
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="https://t.me/PyroTGFork/2" />
-    <meta property="article:author" content="@PyroTGFork" />
-    <meta property="telegram:channel" content="@PyroTGFork" /><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="406 - NotAcceptable" href="not-acceptable.html" /><link rel="prev" title="401 - Unauthorized" href="unauthorized.html" />
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="406 - NotAcceptable" href="not-acceptable.html" /><link rel="prev" title="401 - Unauthorized" href="unauthorized.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>403 - Forbidden - PyroTGFork 2.2.9 Layer 200</title>
+        <title>403 - Forbidden - PyroTGFork 2.2.12 Layer 203</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -124,10 +115,6 @@
   <div class="visually-hidden">Hide table of contents sidebar</div>
 </label>
 
-<!--
-<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
--->
-
 
 
 <div class="page">
@@ -139,14 +126,13 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.9 Layer 200</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
@@ -160,16 +146,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><!-- https://github.com/pradyunsg/furo/blob/5527d43/src/furo/theme/furo/sidebar/brand.html -->
-<a class="sidebar-brand" href="../../index.html">
-    
-    <div class="sidebar-logo-container">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
-    <div class="pyrogram-text">PyroTGFork</div>
-    </div>
-    
-    <!--span class="sidebar-brand-text">PyroTGFork 2.2.9 Layer 200</span-->
-    
+  </div>
+  
+  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
@@ -297,6 +281,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/retract_vote.html">retract_vote</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_text.html">translate_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_message_text.html">translate_message_text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_chat_history.html">delete_chat_history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -421,7 +407,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_custom_emoji_stickers.html">get_custom_emoji_stickers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_message_effects.html">get_message_effects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stickers.html">get_stickers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/can_post_story.html">can_post_story</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stories.html">get_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_active_stories.html">get_chat_active_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_archived_stories.html">get_chat_archived_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/post_story.html">post_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_story.html">edit_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_business_story.html">edit_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_stories.html">delete_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_business_story.html">delete_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/hide_my_story_view.html">hide_my_story_view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/forward_story.html">forward_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/toggle_story_is_posted_to_chat_page.html">toggle_story_is_posted_to_chat_page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_invoice.html">send_invoice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_invoice_link.html">create_invoice_link</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/answer_shipping_query.html">answer_shipping_query</a></li>
@@ -437,6 +434,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_gift.html">send_gift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/toggle_gift_is_saved.html">toggle_gift_is_saved</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_owned_star_count.html">get_owned_star_count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_business_account_star_balance.html">get_business_account_star_balance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_video_chat.html">create_video_chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/discard_group_call.html">discard_group_call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_video_chat_rtmp_url.html">get_video_chat_rtmp_url</a></li>
@@ -540,6 +538,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatStarted.html">VideoChatStarted</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/EmojiStatus.html">EmojiStatus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/GroupCallParticipant.html">GroupCallParticipant</a></li>
@@ -628,6 +628,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/ActiveSessions.html">ActiveSessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/SentCode.html">SentCode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/TermsOfService.html">TermsOfService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/BusinessBotRights.html">BusinessBotRights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/BusinessConnection.html">BusinessConnection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/BusinessIntro.html">BusinessIntro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/BusinessLocation.html">BusinessLocation</a></li>
@@ -649,6 +650,37 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidReactionTypeAnonymous.html">PaidReactionTypeAnonymous</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidReactionTypeChat.html">PaidReactionTypeChat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidReactionTypeRegular.html">PaidReactionTypeRegular</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResult.html">CanPostStoryResult</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultOk.html">CanPostStoryResultOk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultPremiumNeeded.html">CanPostStoryResultPremiumNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultBoostNeeded.html">CanPostStoryResultBoostNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultActiveStoryLimitExceeded.html">CanPostStoryResultActiveStoryLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultWeeklyLimitExceeded.html">CanPostStoryResultWeeklyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/CanPostStoryResultMonthlyLimitExceeded.html">CanPostStoryResultMonthlyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputStoryContent.html">InputStoryContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputStoryContentPhoto.html">InputStoryContentPhoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputStoryContentVideo.html">InputStoryContentVideo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaPosition.html">StoryAreaPosition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/LocationAddress.html">LocationAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaType.html">StoryAreaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeFoundVenue.html">StoryAreaTypeFoundVenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeLocation.html">StoryAreaTypeLocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeSuggestedReaction.html">StoryAreaTypeSuggestedReaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeLink.html">StoryAreaTypeLink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeMessage.html">StoryAreaTypeMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeWeather.html">StoryAreaTypeWeather</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryAreaTypeUniqueGift.html">StoryAreaTypeUniqueGift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryArea.html">StoryArea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryRepostInfo.html">StoryRepostInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryOrigin.html">StoryOrigin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryOriginHiddenUser.html">StoryOriginHiddenUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryOriginPublicStory.html">StoryOriginPublicStory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryPrivacySettings.html">StoryPrivacySettings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryPrivacySettingsEveryone.html">StoryPrivacySettingsEveryone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryPrivacySettingsContacts.html">StoryPrivacySettingsContacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryPrivacySettingsCloseFriends.html">StoryPrivacySettingsCloseFriends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryPrivacySettingsSelectedUsers.html">StoryPrivacySettingsSelectedUsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/StoryStealthMode.html">StoryStealthMode</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../bound-methods/index.html">Bound Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Bound Methods</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -745,6 +777,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../enums/ClientPlatform.html">ClientPlatform</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageEntityType.html">MessageEntityType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageMediaType.html">MessageMediaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../enums/MessageOriginType.html">MessageOriginType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageServiceType.html">MessageServiceType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessagesFilter.html">MessagesFilter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/ParseMode.html">ParseMode</a></li>
@@ -834,43 +867,6 @@
   </aside>
   <div class="main">
     <div class="content">
-
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-      <div class="top-bar">
-          <div class="view-on-github">
-              <a href="https://github.com/TelegramPlayGround/pyrogram" style="font-size: 20px;">
-                  <i class="fa-brands fa-github"></i>
-                  View on GitHub
-              </a>
-          </div>
-          <div class="github-buttons">
-              <table id="stars-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/stargazers">
-                              <i class="fa fa-star"></i>
-                              Star
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-  
-              <!-- <table id="used-by-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/network/dependents">
-                              <i class="fa fa-code"></i>
-                              Used by
-                          </a>
-                      </td>
-                  </tr>
-              </table> -->
-          </div>
-      </div>
-  
-      <div class="horizontal-line"></div>
-  
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -879,11 +875,11 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
@@ -893,9 +889,8 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="article">
-            <article role="main" id="furo-main-content" class="article__content">
-            <section id="forbidden">
+        <article role="main">
+          <section id="forbidden">
 <h1>403 - Forbidden<a class="headerlink" href="#forbidden" title="Link to this heading">#</a></h1>
 <div class="table-wrapper docutils container">
 <table class="docutils align-default">
@@ -905,32 +900,38 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>ANONYMOUS_REACTIONS_DISABLED</p></td>
+<tr class="row-even"><td><p>ALLOW_PAYMENT_REQUIRED_X</p></td>
+<td><p>The user has enabled paid messages with {value} stars.</p></td>
+</tr>
+<tr class="row-odd"><td><p>ANONYMOUS_REACTIONS_DISABLED</p></td>
 <td><p>Sorry, anonymous administrators cannot leave reactions or participate in polls.</p></td>
+</tr>
+<tr class="row-even"><td><p>BOT_ACCESS_FORBIDDEN</p></td>
+<td><p>You cannot access this bot.</p></td>
 </tr>
 <tr class="row-odd"><td><p>BOT_OWNER_REQUIRED</p></td>
 <td><p>You must be the owner of the bot to perform this action</p></td>
 </tr>
 <tr class="row-even"><td><p>BROADCAST_FORBIDDEN</p></td>
-<td><p>The request can’t be used in channels</p></td>
+<td><p>Channel poll voters and reactions cannot be fetched to prevent deanonymization.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHANNEL_PUBLIC_GROUP_NA</p></td>
-<td><p>The channel/supergroup is not available</p></td>
+<td><p>channel/supergroup not available.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_ACTION_FORBIDDEN</p></td>
 <td><p>You cannot execute this action.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_ADMIN_INVITE_REQUIRED</p></td>
-<td><p>You don’t have rights to invite other users</p></td>
+<td><p>You do not have the rights to do this.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_ADMIN_REQUIRED</p></td>
-<td><p>The method requires chat admin privileges</p></td>
+<td><p>You must be an admin in this chat to do this.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_FORBIDDEN</p></td>
-<td><p>You cannot write in this chat</p></td>
+<td><p>This chat is not available to the current user.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_GUEST_SEND_FORBIDDEN</p></td>
-<td><p>You join the discussion group before commenting, see [here »](<a class="reference external" href="https://core.telegram.org/api/discussion#requiring-users-to-join-the-group">https://core.telegram.org/api/discussion#requiring-users-to-join-the-group</a>) for more info.</p></td>
+<td><p>You join the discussion group before commenting, see [here](<a class="reference external" href="https://core.telegram.org/api/discussion#requiring-users-to-join-the-group">https://core.telegram.org/api/discussion#requiring-users-to-join-the-group</a>) for more info.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_SEND_AUDIOS_FORBIDDEN</p></td>
 <td><p>You can’t send audio messages in this chat.</p></td>
@@ -942,13 +943,13 @@
 <td><p>You can’t send a game to this chat.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_SEND_GIFS_FORBIDDEN</p></td>
-<td><p>You can’t send animations in this chat</p></td>
+<td><p>You can’t send gifs in this chat.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_SEND_INLINE_FORBIDDEN</p></td>
-<td><p>You cannot use inline bots to send messages in this chat</p></td>
+<td><p>You can’t send inline messages in this group.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_SEND_MEDIA_FORBIDDEN</p></td>
-<td><p>You can’t send media messages in this chat</p></td>
+<td><p>You can’t send media in this chat.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_SEND_PHOTOS_FORBIDDEN</p></td>
 <td><p>You can’t send photos in this chat.</p></td>
@@ -957,13 +958,13 @@
 <td><p>You can’t send non-media (text) messages in this chat.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_SEND_POLL_FORBIDDEN</p></td>
-<td><p>You can’t send polls in this chat</p></td>
+<td><p>You can’t send polls in this chat.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_SEND_ROUNDVIDEOS_FORBIDDEN</p></td>
 <td><p>You can’t send round videos to this chat.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_SEND_STICKERS_FORBIDDEN</p></td>
-<td><p>You can’t send stickers in this chat</p></td>
+<td><p>You can’t send stickers in this chat.</p></td>
 </tr>
 <tr class="row-even"><td><p>CHAT_SEND_VIDEOS_FORBIDDEN</p></td>
 <td><p>You can’t send videos in this chat.</p></td>
@@ -975,10 +976,10 @@
 <td><p>The specified user type is invalid.</p></td>
 </tr>
 <tr class="row-odd"><td><p>CHAT_WRITE_FORBIDDEN</p></td>
-<td><p>You don’t have rights to send messages in this chat</p></td>
+<td><p>You can’t write in this chat.</p></td>
 </tr>
 <tr class="row-even"><td><p>EDIT_BOT_INVITE_FORBIDDEN</p></td>
-<td><p>Bots’ chat invite links can’t be edited</p></td>
+<td><p>Normal users can’t edit invites that were created by bots.</p></td>
 </tr>
 <tr class="row-odd"><td><p>GROUPCALL_ALREADY_STARTED</p></td>
 <td><p>The groupcall has already started, you can join directly using [phone.joinGroupCall](<a class="reference external" href="https://core.telegram.org/method/phone.joinGroupCall">https://core.telegram.org/method/phone.joinGroupCall</a>).</p></td>
@@ -987,13 +988,13 @@
 <td><p>The group call has already ended.</p></td>
 </tr>
 <tr class="row-odd"><td><p>INLINE_BOT_REQUIRED</p></td>
-<td><p>The action must be performed through an inline bot callback</p></td>
+<td><p>Only the inline bot can edit message.</p></td>
 </tr>
 <tr class="row-even"><td><p>MESSAGE_AUTHOR_REQUIRED</p></td>
-<td><p>You are not the author of this message</p></td>
+<td><p>Message author required.</p></td>
 </tr>
 <tr class="row-odd"><td><p>MESSAGE_DELETE_FORBIDDEN</p></td>
-<td><p>You don’t have rights to delete messages in this chat, most likely because you are not the author of them</p></td>
+<td><p>You can’t delete one of the messages you tried to delete, most likely because it is a service message.</p></td>
 </tr>
 <tr class="row-even"><td><p>NOT_ELIGIBLE</p></td>
 <td><p>The current user is not eligible to join the Peer-to-Peer Login Program.</p></td>
@@ -1005,10 +1006,10 @@
 <td><p>The provided peer id is invalid.</p></td>
 </tr>
 <tr class="row-odd"><td><p>POLL_VOTE_REQUIRED</p></td>
-<td><p>Cast a vote in the poll before calling this method</p></td>
+<td><p>Cast a vote in the poll before calling this method.</p></td>
 </tr>
 <tr class="row-even"><td><p>PREMIUM_ACCOUNT_REQUIRED</p></td>
-<td><p>This action requires a premium account</p></td>
+<td><p>A premium account is required to execute this action.</p></td>
 </tr>
 <tr class="row-odd"><td><p>PRIVACY_PREMIUM_REQUIRED</p></td>
 <td><p>You need a [Telegram Premium subscription](<a class="reference external" href="https://core.telegram.org/api/premium">https://core.telegram.org/api/premium</a>) to send a message to this user.</p></td>
@@ -1016,46 +1017,49 @@
 <tr class="row-even"><td><p>PUBLIC_CHANNEL_MISSING</p></td>
 <td><p>You can only export group call invite links for public chats or channels.</p></td>
 </tr>
-<tr class="row-odd"><td><p>RIGHT_FORBIDDEN</p></td>
-<td><p>You don’t have enough rights for this action, or you tried to set one or more admin rights that can’t be applied to this kind of chat (channel or supergroup)</p></td>
+<tr class="row-odd"><td><p>RECAPTCHA_CHECK_X</p></td>
+<td><p>The request can’t be completed unless reCAPTCHA verification {value} is performed; for official mobile applications only</p></td>
 </tr>
-<tr class="row-even"><td><p>SENSITIVE_CHANGE_FORBIDDEN</p></td>
-<td><p>Your sensitive content settings can’t be changed at this time</p></td>
+<tr class="row-even"><td><p>RIGHT_FORBIDDEN</p></td>
+<td><p>Your admin rights do not allow you to do this.</p></td>
 </tr>
-<tr class="row-odd"><td><p>TAKEOUT_REQUIRED</p></td>
-<td><p>The method must be invoked inside a takeout session</p></td>
+<tr class="row-odd"><td><p>SENSITIVE_CHANGE_FORBIDDEN</p></td>
+<td><p>You can’t change your sensitive content settings.</p></td>
 </tr>
-<tr class="row-even"><td><p>USER_BOT_INVALID</p></td>
-<td><p>This method can only be called by a bot</p></td>
+<tr class="row-even"><td><p>TAKEOUT_REQUIRED</p></td>
+<td><p>A [takeout](<a class="reference external" href="https://core.telegram.org/api/takeout">https://core.telegram.org/api/takeout</a>) session needs to be initialized first, [see here for more info](<a class="reference external" href="https://core.telegram.org/api/takeout">https://core.telegram.org/api/takeout</a>).</p></td>
 </tr>
-<tr class="row-odd"><td><p>USER_CHANNELS_TOO_MUCH</p></td>
-<td><p>One of the users you tried to add is already in too many channels/supergroups</p></td>
+<tr class="row-odd"><td><p>USER_BOT_INVALID</p></td>
+<td><p>User accounts must provide the <cite>bot</cite> method parameter when calling this method. If there is no such method parameter, this method can only be invoked by bot accounts.</p></td>
 </tr>
-<tr class="row-even"><td><p>USER_DELETED</p></td>
+<tr class="row-even"><td><p>USER_CHANNELS_TOO_MUCH</p></td>
+<td><p>One of the users you tried to add is already in too many channels/supergroups.</p></td>
+</tr>
+<tr class="row-odd"><td><p>USER_DELETED</p></td>
 <td><p>You can’t send this secret message because the other participant deleted their account.</p></td>
 </tr>
-<tr class="row-odd"><td><p>USER_INVALID</p></td>
-<td><p>The provided user is invalid</p></td>
+<tr class="row-even"><td><p>USER_INVALID</p></td>
+<td><p>Invalid user provided.</p></td>
 </tr>
-<tr class="row-even"><td><p>USER_IS_BLOCKED</p></td>
-<td><p>The user is blocked</p></td>
+<tr class="row-odd"><td><p>USER_IS_BLOCKED</p></td>
+<td><p>You were blocked by this user.</p></td>
 </tr>
-<tr class="row-odd"><td><p>USER_NOT_MUTUAL_CONTACT</p></td>
-<td><p>The provided user is not a mutual contact</p></td>
+<tr class="row-even"><td><p>USER_NOT_MUTUAL_CONTACT</p></td>
+<td><p>The provided user is not a mutual contact.</p></td>
 </tr>
-<tr class="row-even"><td><p>USER_NOT_PARTICIPANT</p></td>
+<tr class="row-odd"><td><p>USER_NOT_PARTICIPANT</p></td>
 <td><p>You’re not a member of this supergroup/channel.</p></td>
 </tr>
-<tr class="row-odd"><td><p>USER_PRIVACY_RESTRICTED</p></td>
-<td><p>The user’s privacy settings is preventing you to perform this action</p></td>
+<tr class="row-even"><td><p>USER_PRIVACY_RESTRICTED</p></td>
+<td><p>The user’s privacy settings do not allow you to do this.</p></td>
 </tr>
-<tr class="row-even"><td><p>USER_RESTRICTED</p></td>
-<td><p>You are limited/restricted. You can’t perform this action</p></td>
+<tr class="row-odd"><td><p>USER_RESTRICTED</p></td>
+<td><p>You’re spamreported, you can’t create channels or chats.</p></td>
 </tr>
-<tr class="row-odd"><td><p>VOICE_MESSAGES_FORBIDDEN</p></td>
+<tr class="row-even"><td><p>VOICE_MESSAGES_FORBIDDEN</p></td>
 <td><p>This user’s privacy settings forbid you from sending voice messages.</p></td>
 </tr>
-<tr class="row-even"><td><p>YOUR_PRIVACY_RESTRICTED</p></td>
+<tr class="row-odd"><td><p>YOUR_PRIVACY_RESTRICTED</p></td>
 <td><p>You cannot fetch the read date of this message because you have disallowed other users to do so for <em>your</em> messages; to fix, allow other users to see <em>your</em> exact last online date OR purchase a [Telegram Premium](<a class="reference external" href="https://core.telegram.org/api/premium">https://core.telegram.org/api/premium</a>) subscription.</p></td>
 </tr>
 </tbody>
@@ -1063,8 +1067,7 @@
 </div>
 </section>
 
-            </article>
-        </div>
+        </article>
       </div>
       <footer>
         
@@ -1099,7 +1102,7 @@
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/c64b851" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
@@ -1121,22 +1124,5 @@
     <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=a56c686a"></script>
-    <!--script defer>
-      fetch("https://counters.pyrogram.org").then(res => res.json()).then(data => {
-            const stars = data.stars
-            const usedBy = data.forks
-
-            if (stars && usedBy) {
-                const starsTable = document.getElementById("stars-table");
-                const starsTd = document.createElement("td");
-                starsTd.innerText = stars.toLocaleString();
-                starsTable.children[0].children[0].appendChild(starsTd);
-
-              /*  const usedByTable = document.getElementById("used-by-table");
-                const usedByTd = document.createElement("td");
-                usedByTd.innerText = usedBy.toLocaleString();
-                usedByTable.children[0].children[0].appendChild(usedByTd); */
-            }
-        });
-    </script--></body>
+    </body>
 </html>

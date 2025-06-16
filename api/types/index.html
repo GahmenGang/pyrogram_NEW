@@ -2,20 +2,11 @@
 <html class="no-js" lang="en" data-content_root="../../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark">
-
-    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
-    <meta property="article:published_time" content="">
-    <meta property="article:modified_time" content="">
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="https://t.me/PyroTGFork/2" />
-    <meta property="article:author" content="@PyroTGFork" />
-    <meta property="telegram:channel" content="@PyroTGFork" /><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Message" href="Message.html" /><link rel="prev" title="save_file()" href="../methods/save_file.html" />
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Message" href="Message.html" /><link rel="prev" title="save_file()" href="../methods/save_file.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>Available Types - PyroTGFork 2.2.9 Layer 200</title>
+        <title>Available Types - PyroTGFork 2.2.12 Layer 203</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -124,10 +115,6 @@
   <div class="visually-hidden">Hide table of contents sidebar</div>
 </label>
 
-<!--
-<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
--->
-
 
 
 <div class="page">
@@ -139,14 +126,13 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.9 Layer 200</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
@@ -160,16 +146,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><!-- https://github.com/pradyunsg/furo/blob/5527d43/src/furo/theme/furo/sidebar/brand.html -->
-<a class="sidebar-brand" href="../../index.html">
-    
-    <div class="sidebar-logo-container">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
-    <div class="pyrogram-text">PyroTGFork</div>
-    </div>
-    
-    <!--span class="sidebar-brand-text">PyroTGFork 2.2.9 Layer 200</span-->
-    
+  </div>
+  
+  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
@@ -297,6 +281,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/retract_vote.html">retract_vote</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_text.html">translate_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_message_text.html">translate_message_text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_chat_history.html">delete_chat_history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -421,7 +407,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_custom_emoji_stickers.html">get_custom_emoji_stickers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_message_effects.html">get_message_effects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stickers.html">get_stickers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/can_post_story.html">can_post_story</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_stories.html">get_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_active_stories.html">get_chat_active_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_archived_stories.html">get_chat_archived_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/post_story.html">post_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_story.html">edit_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_business_story.html">edit_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_stories.html">delete_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/delete_business_story.html">delete_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/hide_my_story_view.html">hide_my_story_view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/forward_story.html">forward_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/toggle_story_is_posted_to_chat_page.html">toggle_story_is_posted_to_chat_page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_invoice.html">send_invoice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_invoice_link.html">create_invoice_link</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/answer_shipping_query.html">answer_shipping_query</a></li>
@@ -437,6 +434,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_gift.html">send_gift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/toggle_gift_is_saved.html">toggle_gift_is_saved</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_owned_star_count.html">get_owned_star_count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_business_account_star_balance.html">get_business_account_star_balance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/create_video_chat.html">create_video_chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/discard_group_call.html">discard_group_call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_video_chat_rtmp_url.html">get_video_chat_rtmp_url</a></li>
@@ -540,6 +538,8 @@
 <li class="toctree-l2"><a class="reference internal" href="VideoChatStarted.html">VideoChatStarted</a></li>
 <li class="toctree-l2"><a class="reference internal" href="VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="EmojiStatus.html">EmojiStatus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="GroupCallParticipant.html">GroupCallParticipant</a></li>
@@ -628,6 +628,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ActiveSessions.html">ActiveSessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="SentCode.html">SentCode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="TermsOfService.html">TermsOfService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BusinessBotRights.html">BusinessBotRights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessConnection.html">BusinessConnection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessIntro.html">BusinessIntro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BusinessLocation.html">BusinessLocation</a></li>
@@ -649,6 +650,37 @@
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeAnonymous.html">PaidReactionTypeAnonymous</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeChat.html">PaidReactionTypeChat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidReactionTypeRegular.html">PaidReactionTypeRegular</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResult.html">CanPostStoryResult</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultOk.html">CanPostStoryResultOk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultPremiumNeeded.html">CanPostStoryResultPremiumNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultBoostNeeded.html">CanPostStoryResultBoostNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultActiveStoryLimitExceeded.html">CanPostStoryResultActiveStoryLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultWeeklyLimitExceeded.html">CanPostStoryResultWeeklyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CanPostStoryResultMonthlyLimitExceeded.html">CanPostStoryResultMonthlyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContent.html">InputStoryContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContentPhoto.html">InputStoryContentPhoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputStoryContentVideo.html">InputStoryContentVideo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaPosition.html">StoryAreaPosition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LocationAddress.html">LocationAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaType.html">StoryAreaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeFoundVenue.html">StoryAreaTypeFoundVenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeLocation.html">StoryAreaTypeLocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeSuggestedReaction.html">StoryAreaTypeSuggestedReaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeLink.html">StoryAreaTypeLink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeMessage.html">StoryAreaTypeMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeWeather.html">StoryAreaTypeWeather</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryAreaTypeUniqueGift.html">StoryAreaTypeUniqueGift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryArea.html">StoryArea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryRepostInfo.html">StoryRepostInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOrigin.html">StoryOrigin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOriginHiddenUser.html">StoryOriginHiddenUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryOriginPublicStory.html">StoryOriginPublicStory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettings.html">StoryPrivacySettings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsEveryone.html">StoryPrivacySettingsEveryone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsContacts.html">StoryPrivacySettingsContacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsCloseFriends.html">StoryPrivacySettingsCloseFriends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryPrivacySettingsSelectedUsers.html">StoryPrivacySettingsSelectedUsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="StoryStealthMode.html">StoryStealthMode</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../bound-methods/index.html">Bound Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Bound Methods</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -745,6 +777,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../enums/ClientPlatform.html">ClientPlatform</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageEntityType.html">MessageEntityType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageMediaType.html">MessageMediaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../enums/MessageOriginType.html">MessageOriginType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessageServiceType.html">MessageServiceType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/MessagesFilter.html">MessagesFilter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../enums/ParseMode.html">ParseMode</a></li>
@@ -834,43 +867,6 @@
   </aside>
   <div class="main">
     <div class="content">
-
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-      <div class="top-bar">
-          <div class="view-on-github">
-              <a href="https://github.com/TelegramPlayGround/pyrogram" style="font-size: 20px;">
-                  <i class="fa-brands fa-github"></i>
-                  View on GitHub
-              </a>
-          </div>
-          <div class="github-buttons">
-              <table id="stars-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/stargazers">
-                              <i class="fa fa-star"></i>
-                              Star
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-  
-              <!-- <table id="used-by-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/network/dependents">
-                              <i class="fa fa-code"></i>
-                              Used by
-                          </a>
-                      </td>
-                  </tr>
-              </table> -->
-          </div>
-      </div>
-  
-      <div class="horizontal-line"></div>
-  
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -879,11 +875,11 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
@@ -893,9 +889,8 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="article">
-            <article role="main" id="furo-main-content" class="article__content">
-            <section id="available-types">
+        <article role="main">
+          <section id="available-types">
 <h1>Available Types<a class="headerlink" href="#available-types" title="Link to this heading">#</a></h1>
 <p>This page is about Pyrogram Types. All types listed here are available through the <code class="docutils literal notranslate"><span class="pre">pyrogram.types</span></code> package.
 Unless required as argument to a client method, most of the types don’t need to be manually instantiated because they
@@ -1206,6 +1201,12 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="VideoChatParticipantsInvited.html#pyrogram.types.VideoChatParticipantsInvited" title="pyrogram.types.VideoChatParticipantsInvited"><code class="xref py py-obj docutils literal notranslate"><span class="pre">VideoChatParticipantsInvited</span></code></a></p></td>
 <td><p>A service message about new members invited to a voice chat.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="PaidMessagePriceChanged.html#pyrogram.types.PaidMessagePriceChanged" title="pyrogram.types.PaidMessagePriceChanged"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidMessagePriceChanged</span></code></a></p></td>
+<td><p>Describes a service message about a change in the price of paid messages within a chat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="PaidMessagesRefunded.html#pyrogram.types.PaidMessagesRefunded" title="pyrogram.types.PaidMessagesRefunded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidMessagesRefunded</span></code></a></p></td>
+<td><p>Describes a service message about refunded paid messages.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="Dialog.html#pyrogram.types.Dialog" title="pyrogram.types.Dialog"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dialog</span></code></a></p></td>
 <td><p>A user's dialog.</p></td>
@@ -1573,10 +1574,13 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 <div class="table-wrapper autosummary longtable docutils container">
 <table class="autosummary longtable docutils align-default">
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="BusinessConnection.html#pyrogram.types.BusinessConnection" title="pyrogram.types.BusinessConnection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessConnection</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="BusinessBotRights.html#pyrogram.types.BusinessBotRights" title="pyrogram.types.BusinessBotRights"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessBotRights</span></code></a></p></td>
+<td><p>Represents the rights of a business bot.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="BusinessConnection.html#pyrogram.types.BusinessConnection" title="pyrogram.types.BusinessConnection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessConnection</span></code></a></p></td>
 <td><p>Describes the connection of the bot with a business account.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="BusinessIntro.html#pyrogram.types.BusinessIntro" title="pyrogram.types.BusinessIntro"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessIntro</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="BusinessIntro.html#pyrogram.types.BusinessIntro" title="pyrogram.types.BusinessIntro"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessIntro</span></code></a></p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
@@ -1586,7 +1590,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </dl>
 </p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="BusinessLocation.html#pyrogram.types.BusinessLocation" title="pyrogram.types.BusinessLocation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessLocation</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="BusinessLocation.html#pyrogram.types.BusinessLocation" title="pyrogram.types.BusinessLocation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessLocation</span></code></a></p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
@@ -1596,7 +1600,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </dl>
 </p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="BusinessOpeningHours.html#pyrogram.types.BusinessOpeningHours" title="pyrogram.types.BusinessOpeningHours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessOpeningHours</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="BusinessOpeningHours.html#pyrogram.types.BusinessOpeningHours" title="pyrogram.types.BusinessOpeningHours"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessOpeningHours</span></code></a></p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
@@ -1606,7 +1610,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </dl>
 </p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="BusinessOpeningHoursInterval.html#pyrogram.types.BusinessOpeningHoursInterval" title="pyrogram.types.BusinessOpeningHoursInterval"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessOpeningHoursInterval</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="BusinessOpeningHoursInterval.html#pyrogram.types.BusinessOpeningHoursInterval" title="pyrogram.types.BusinessOpeningHoursInterval"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BusinessOpeningHoursInterval</span></code></a></p></td>
 <td><p><dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
@@ -1616,53 +1620,157 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </dl>
 </p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="CollectibleItemInfo.html#pyrogram.types.CollectibleItemInfo" title="pyrogram.types.CollectibleItemInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CollectibleItemInfo</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="CollectibleItemInfo.html#pyrogram.types.CollectibleItemInfo" title="pyrogram.types.CollectibleItemInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CollectibleItemInfo</span></code></a></p></td>
 <td><p>Contains information about a collectible item and its last purchase.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="LabeledPrice.html#pyrogram.types.LabeledPrice" title="pyrogram.types.LabeledPrice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LabeledPrice</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="LabeledPrice.html#pyrogram.types.LabeledPrice" title="pyrogram.types.LabeledPrice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LabeledPrice</span></code></a></p></td>
 <td><p>This object represents a portion of the price for goods or services.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="Invoice.html#pyrogram.types.Invoice" title="pyrogram.types.Invoice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Invoice</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="Invoice.html#pyrogram.types.Invoice" title="pyrogram.types.Invoice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Invoice</span></code></a></p></td>
 <td><p>This object contains basic information about an invoice.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ShippingAddress.html#pyrogram.types.ShippingAddress" title="pyrogram.types.ShippingAddress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingAddress</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ShippingAddress.html#pyrogram.types.ShippingAddress" title="pyrogram.types.ShippingAddress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingAddress</span></code></a></p></td>
 <td><p>This object represents a shipping address.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="OrderInfo.html#pyrogram.types.OrderInfo" title="pyrogram.types.OrderInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">OrderInfo</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="OrderInfo.html#pyrogram.types.OrderInfo" title="pyrogram.types.OrderInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">OrderInfo</span></code></a></p></td>
 <td><p>This object represents information about an order.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ShippingOption.html#pyrogram.types.ShippingOption" title="pyrogram.types.ShippingOption"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingOption</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ShippingOption.html#pyrogram.types.ShippingOption" title="pyrogram.types.ShippingOption"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingOption</span></code></a></p></td>
 <td><p>This object represents one shipping option.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="PaymentForm.html#pyrogram.types.PaymentForm" title="pyrogram.types.PaymentForm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaymentForm</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="PaymentForm.html#pyrogram.types.PaymentForm" title="pyrogram.types.PaymentForm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaymentForm</span></code></a></p></td>
 <td><p>This object contains basic information about an payment form.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="SuccessfulPayment.html#pyrogram.types.SuccessfulPayment" title="pyrogram.types.SuccessfulPayment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SuccessfulPayment</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="SuccessfulPayment.html#pyrogram.types.SuccessfulPayment" title="pyrogram.types.SuccessfulPayment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SuccessfulPayment</span></code></a></p></td>
 <td><p>This object contains basic information about a successful payment.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="RefundedPayment.html#pyrogram.types.RefundedPayment" title="pyrogram.types.RefundedPayment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RefundedPayment</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="RefundedPayment.html#pyrogram.types.RefundedPayment" title="pyrogram.types.RefundedPayment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RefundedPayment</span></code></a></p></td>
 <td><p>This object contains basic information about a refunded payment.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="ShippingQuery.html#pyrogram.types.ShippingQuery" title="pyrogram.types.ShippingQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingQuery</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="ShippingQuery.html#pyrogram.types.ShippingQuery" title="pyrogram.types.ShippingQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ShippingQuery</span></code></a></p></td>
 <td><p>This object contains information about an incoming shipping query.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="PreCheckoutQuery.html#pyrogram.types.PreCheckoutQuery" title="pyrogram.types.PreCheckoutQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PreCheckoutQuery</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="PreCheckoutQuery.html#pyrogram.types.PreCheckoutQuery" title="pyrogram.types.PreCheckoutQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PreCheckoutQuery</span></code></a></p></td>
 <td><p>This object contains information about an incoming pre-checkout query.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="StarAmount.html#pyrogram.types.StarAmount" title="pyrogram.types.StarAmount"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StarAmount</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="StarAmount.html#pyrogram.types.StarAmount" title="pyrogram.types.StarAmount"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StarAmount</span></code></a></p></td>
 <td><p>This object Describes a possibly non-integer amount of Telegram Stars.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="PaidReactionType.html#pyrogram.types.PaidReactionType" title="pyrogram.types.PaidReactionType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionType</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="PaidReactionType.html#pyrogram.types.PaidReactionType" title="pyrogram.types.PaidReactionType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionType</span></code></a></p></td>
 <td><p>This object describes the type of paid message reaction.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="PaidReactionTypeAnonymous.html#pyrogram.types.PaidReactionTypeAnonymous" title="pyrogram.types.PaidReactionTypeAnonymous"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeAnonymous</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="PaidReactionTypeAnonymous.html#pyrogram.types.PaidReactionTypeAnonymous" title="pyrogram.types.PaidReactionTypeAnonymous"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeAnonymous</span></code></a></p></td>
 <td><p>An anonymous paid reaction.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="PaidReactionTypeChat.html#pyrogram.types.PaidReactionTypeChat" title="pyrogram.types.PaidReactionTypeChat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeChat</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="PaidReactionTypeChat.html#pyrogram.types.PaidReactionTypeChat" title="pyrogram.types.PaidReactionTypeChat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeChat</span></code></a></p></td>
 <td><p>A paid reaction on behalf of an owned chat.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="PaidReactionTypeRegular.html#pyrogram.types.PaidReactionTypeRegular" title="pyrogram.types.PaidReactionTypeRegular"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeRegular</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="PaidReactionTypeRegular.html#pyrogram.types.PaidReactionTypeRegular" title="pyrogram.types.PaidReactionTypeRegular"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PaidReactionTypeRegular</span></code></a></p></td>
 <td><p>A paid reaction on behalf of the current user.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="stories">
+<h2>Stories<a class="headerlink" href="#stories" title="Link to this heading">#</a></h2>
+<div class="table-wrapper autosummary longtable docutils container">
+<table class="autosummary longtable docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="CanPostStoryResult.html#pyrogram.types.CanPostStoryResult" title="pyrogram.types.CanPostStoryResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResult</span></code></a></p></td>
+<td><p>This object represents result of checking whether the current user can post a story on behalf of the specific chat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="CanPostStoryResultOk.html#pyrogram.types.CanPostStoryResultOk" title="pyrogram.types.CanPostStoryResultOk"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultOk</span></code></a></p></td>
+<td><p>A story can be sent.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="CanPostStoryResultPremiumNeeded.html#pyrogram.types.CanPostStoryResultPremiumNeeded" title="pyrogram.types.CanPostStoryResultPremiumNeeded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultPremiumNeeded</span></code></a></p></td>
+<td><p>The user must subscribe to Telegram Premium to be able to post stories.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="CanPostStoryResultBoostNeeded.html#pyrogram.types.CanPostStoryResultBoostNeeded" title="pyrogram.types.CanPostStoryResultBoostNeeded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultBoostNeeded</span></code></a></p></td>
+<td><p>The chat must be boosted first by Telegram Premium subscribers to post more stories.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="CanPostStoryResultActiveStoryLimitExceeded.html#pyrogram.types.CanPostStoryResultActiveStoryLimitExceeded" title="pyrogram.types.CanPostStoryResultActiveStoryLimitExceeded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultActiveStoryLimitExceeded</span></code></a></p></td>
+<td><p>The limit for the number of active stories exceeded.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="CanPostStoryResultWeeklyLimitExceeded.html#pyrogram.types.CanPostStoryResultWeeklyLimitExceeded" title="pyrogram.types.CanPostStoryResultWeeklyLimitExceeded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultWeeklyLimitExceeded</span></code></a></p></td>
+<td><p>The weekly limit for the number of posted stories exceeded.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="CanPostStoryResultMonthlyLimitExceeded.html#pyrogram.types.CanPostStoryResultMonthlyLimitExceeded" title="pyrogram.types.CanPostStoryResultMonthlyLimitExceeded"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CanPostStoryResultMonthlyLimitExceeded</span></code></a></p></td>
+<td><p>The monthly limit for the number of posted stories exceeded.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="InputStoryContent.html#pyrogram.types.InputStoryContent" title="pyrogram.types.InputStoryContent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InputStoryContent</span></code></a></p></td>
+<td><p>This object describes the content of a story to post.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="InputStoryContentPhoto.html#pyrogram.types.InputStoryContentPhoto" title="pyrogram.types.InputStoryContentPhoto"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InputStoryContentPhoto</span></code></a></p></td>
+<td><p>Describes a photo to post as a story.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="InputStoryContentVideo.html#pyrogram.types.InputStoryContentVideo" title="pyrogram.types.InputStoryContentVideo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InputStoryContentVideo</span></code></a></p></td>
+<td><p>Describes a video to post as a story.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryAreaPosition.html#pyrogram.types.StoryAreaPosition" title="pyrogram.types.StoryAreaPosition"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaPosition</span></code></a></p></td>
+<td><p>This object describes the position of a clickable area within a story.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="LocationAddress.html#pyrogram.types.LocationAddress" title="pyrogram.types.LocationAddress"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LocationAddress</span></code></a></p></td>
+<td><p>This object describes the physical address of a location.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryAreaType.html#pyrogram.types.StoryAreaType" title="pyrogram.types.StoryAreaType"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaType</span></code></a></p></td>
+<td><p>This object describes the type of a clickable area on a story.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryAreaTypeFoundVenue.html#pyrogram.types.StoryAreaTypeFoundVenue" title="pyrogram.types.StoryAreaTypeFoundVenue"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeFoundVenue</span></code></a></p></td>
+<td><p>This object describes an area pointing to a venue found by the FOURSQUARE bot.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryAreaTypeLocation.html#pyrogram.types.StoryAreaTypeLocation" title="pyrogram.types.StoryAreaTypeLocation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeLocation</span></code></a></p></td>
+<td><p>This object describes a story area pointing to a location.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryAreaTypeSuggestedReaction.html#pyrogram.types.StoryAreaTypeSuggestedReaction" title="pyrogram.types.StoryAreaTypeSuggestedReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeSuggestedReaction</span></code></a></p></td>
+<td><p>This object describes a story area pointing to a suggested reaction.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryAreaTypeLink.html#pyrogram.types.StoryAreaTypeLink" title="pyrogram.types.StoryAreaTypeLink"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeLink</span></code></a></p></td>
+<td><p>This object describes a story area pointing to an HTTP or tg:// link.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryAreaTypeMessage.html#pyrogram.types.StoryAreaTypeMessage" title="pyrogram.types.StoryAreaTypeMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeMessage</span></code></a></p></td>
+<td><p>This object describes an area pointing to a message.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryAreaTypeWeather.html#pyrogram.types.StoryAreaTypeWeather" title="pyrogram.types.StoryAreaTypeWeather"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeWeather</span></code></a></p></td>
+<td><p>This object describes a story area containing weather information.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryAreaTypeUniqueGift.html#pyrogram.types.StoryAreaTypeUniqueGift" title="pyrogram.types.StoryAreaTypeUniqueGift"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryAreaTypeUniqueGift</span></code></a></p></td>
+<td><p>This object describes a story area pointing to a unique gift.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryArea.html#pyrogram.types.StoryArea" title="pyrogram.types.StoryArea"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryArea</span></code></a></p></td>
+<td><p>This object describes a clickable area on a story media.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryRepostInfo.html#pyrogram.types.StoryRepostInfo" title="pyrogram.types.StoryRepostInfo"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryRepostInfo</span></code></a></p></td>
+<td><p>Contains information about original story that was reposted.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryOrigin.html#pyrogram.types.StoryOrigin" title="pyrogram.types.StoryOrigin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryOrigin</span></code></a></p></td>
+<td><p>Contains information about the origin of a story that was reposted.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryOriginHiddenUser.html#pyrogram.types.StoryOriginHiddenUser" title="pyrogram.types.StoryOriginHiddenUser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryOriginHiddenUser</span></code></a></p></td>
+<td><p>The original story was posted by an unknown user.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryOriginPublicStory.html#pyrogram.types.StoryOriginPublicStory" title="pyrogram.types.StoryOriginPublicStory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryOriginPublicStory</span></code></a></p></td>
+<td><p>The original story was a public story that was posted by a known chat.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryPrivacySettings.html#pyrogram.types.StoryPrivacySettings" title="pyrogram.types.StoryPrivacySettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettings</span></code></a></p></td>
+<td><p>This object describes privacy settings of a story.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryPrivacySettingsEveryone.html#pyrogram.types.StoryPrivacySettingsEveryone" title="pyrogram.types.StoryPrivacySettingsEveryone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsEveryone</span></code></a></p></td>
+<td><p>The story can be viewed by everyone.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryPrivacySettingsContacts.html#pyrogram.types.StoryPrivacySettingsContacts" title="pyrogram.types.StoryPrivacySettingsContacts"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsContacts</span></code></a></p></td>
+<td><p>The story can be viewed by all contacts except chosen users.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryPrivacySettingsCloseFriends.html#pyrogram.types.StoryPrivacySettingsCloseFriends" title="pyrogram.types.StoryPrivacySettingsCloseFriends"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsCloseFriends</span></code></a></p></td>
+<td><p>The story can be viewed by all close friends.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="StoryPrivacySettingsSelectedUsers.html#pyrogram.types.StoryPrivacySettingsSelectedUsers" title="pyrogram.types.StoryPrivacySettingsSelectedUsers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryPrivacySettingsSelectedUsers</span></code></a></p></td>
+<td><p>The story can be viewed by certain specified users.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="StoryStealthMode.html#pyrogram.types.StoryStealthMode" title="pyrogram.types.StoryStealthMode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StoryStealthMode</span></code></a></p></td>
+<td><p>Story stealth mode.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1672,8 +1780,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 </section>
 </section>
 
-            </article>
-        </div>
+        </article>
       </div>
       <footer>
         
@@ -1708,7 +1815,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/c64b851" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
@@ -1742,6 +1849,7 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
 <li><a class="reference internal" href="#inputmessagecontent">InputMessageContent</a></li>
 <li><a class="reference internal" href="#authorization">Authorization</a></li>
 <li><a class="reference internal" href="#payments">Payments</a></li>
+<li><a class="reference internal" href="#stories">Stories</a></li>
 </ul>
 </li>
 </ul>
@@ -1759,22 +1867,5 @@ Empty fields aren’t shown when, for example, using <code class="docutils liter
     <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=a56c686a"></script>
-    <!--script defer>
-      fetch("https://counters.pyrogram.org").then(res => res.json()).then(data => {
-            const stars = data.stars
-            const usedBy = data.forks
-
-            if (stars && usedBy) {
-                const starsTable = document.getElementById("stars-table");
-                const starsTd = document.createElement("td");
-                starsTd.innerText = stars.toLocaleString();
-                starsTable.children[0].children[0].appendChild(starsTd);
-
-              /*  const usedByTable = document.getElementById("used-by-table");
-                const usedByTd = document.createElement("td");
-                usedByTd.innerText = usedBy.toLocaleString();
-                usedByTable.children[0].children[0].appendChild(usedByTd); */
-            }
-        });
-    </script--></body>
+    </body>
 </html>

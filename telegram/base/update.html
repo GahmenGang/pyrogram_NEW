@@ -2,20 +2,11 @@
 <html class="no-js" lang="en" data-content_root="../../">
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <meta name="color-scheme" content="light dark">
-
-    <!-- site_verification property must be present, but @content could be empty (no IVBot-side verification for now?) -->
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <!-- published_time property must be present, but you could leave @content empty if $published_date isn't needed -->
-    <meta property="article:published_time" content="">
-    <meta property="article:modified_time" content="">
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="https://t.me/PyroTGFork/2" />
-    <meta property="article:author" content="@PyroTGFork" />
-    <meta property="telegram:channel" content="@PyroTGFork" /><link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Updates" href="updates.html" /><link rel="prev" title="TopPeerCategoryPeers" href="top-peer-category-peers.html" />
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Updates" href="updates.html" /><link rel="prev" title="TopPeerCategoryPeers" href="top-peer-category-peers.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>Update - PyroTGFork 2.2.9 Layer 200</title>
+        <title>Update - PyroTGFork 2.2.12 Layer 203</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -124,10 +115,6 @@
   <div class="visually-hidden">Hide table of contents sidebar</div>
 </label>
 
-<!--
-<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
--->
-
 
 
 <div class="page">
@@ -139,14 +126,13 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.9 Layer 200</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
@@ -160,16 +146,14 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><!-- https://github.com/pradyunsg/furo/blob/5527d43/src/furo/theme/furo/sidebar/brand.html -->
-<a class="sidebar-brand" href="../../index.html">
-    
-    <div class="sidebar-logo-container">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../../index.html">
+  
+  <div class="sidebar-logo-container">
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
-    <div class="pyrogram-text">PyroTGFork</div>
-    </div>
-    
-    <!--span class="sidebar-brand-text">PyroTGFork 2.2.9 Layer 200</span-->
-    
+  </div>
+  
+  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
   <input type="hidden" name="check_keywords" value="yes">
@@ -297,6 +281,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/retract_vote.html">retract_vote</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/translate_text.html">translate_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/translate_message_text.html">translate_message_text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/delete_chat_history.html">delete_chat_history</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -421,7 +407,18 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_custom_emoji_stickers.html">get_custom_emoji_stickers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_message_effects.html">get_message_effects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_stickers.html">get_stickers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/can_post_story.html">can_post_story</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_stories.html">get_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_chat_active_stories.html">get_chat_active_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_chat_archived_stories.html">get_chat_archived_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/post_story.html">post_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/edit_story.html">edit_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/edit_business_story.html">edit_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/delete_stories.html">delete_stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/delete_business_story.html">delete_business_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/hide_my_story_view.html">hide_my_story_view</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/forward_story.html">forward_story</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/toggle_story_is_posted_to_chat_page.html">toggle_story_is_posted_to_chat_page</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/send_invoice.html">send_invoice</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/create_invoice_link.html">create_invoice_link</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/answer_shipping_query.html">answer_shipping_query</a></li>
@@ -437,6 +434,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/send_gift.html">send_gift</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/toggle_gift_is_saved.html">toggle_gift_is_saved</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_owned_star_count.html">get_owned_star_count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_business_account_star_balance.html">get_business_account_star_balance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/create_video_chat.html">create_video_chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/discard_group_call.html">discard_group_call</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/methods/get_video_chat_rtmp_url.html">get_video_chat_rtmp_url</a></li>
@@ -540,6 +538,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/VideoChatStarted.html">VideoChatStarted</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/EmojiStatus.html">EmojiStatus</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/GroupCallParticipant.html">GroupCallParticipant</a></li>
@@ -628,6 +628,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/ActiveSessions.html">ActiveSessions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/SentCode.html">SentCode</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/TermsOfService.html">TermsOfService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/BusinessBotRights.html">BusinessBotRights</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/BusinessConnection.html">BusinessConnection</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/BusinessIntro.html">BusinessIntro</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/BusinessLocation.html">BusinessLocation</a></li>
@@ -649,6 +650,37 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/PaidReactionTypeAnonymous.html">PaidReactionTypeAnonymous</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/PaidReactionTypeChat.html">PaidReactionTypeChat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/types/PaidReactionTypeRegular.html">PaidReactionTypeRegular</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResult.html">CanPostStoryResult</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultOk.html">CanPostStoryResultOk</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultPremiumNeeded.html">CanPostStoryResultPremiumNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultBoostNeeded.html">CanPostStoryResultBoostNeeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultActiveStoryLimitExceeded.html">CanPostStoryResultActiveStoryLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultWeeklyLimitExceeded.html">CanPostStoryResultWeeklyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/CanPostStoryResultMonthlyLimitExceeded.html">CanPostStoryResultMonthlyLimitExceeded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/InputStoryContent.html">InputStoryContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/InputStoryContentPhoto.html">InputStoryContentPhoto</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/InputStoryContentVideo.html">InputStoryContentVideo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaPosition.html">StoryAreaPosition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/LocationAddress.html">LocationAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaType.html">StoryAreaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeFoundVenue.html">StoryAreaTypeFoundVenue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeLocation.html">StoryAreaTypeLocation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeSuggestedReaction.html">StoryAreaTypeSuggestedReaction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeLink.html">StoryAreaTypeLink</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeMessage.html">StoryAreaTypeMessage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeWeather.html">StoryAreaTypeWeather</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryAreaTypeUniqueGift.html">StoryAreaTypeUniqueGift</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryArea.html">StoryArea</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryRepostInfo.html">StoryRepostInfo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryOrigin.html">StoryOrigin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryOriginHiddenUser.html">StoryOriginHiddenUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryOriginPublicStory.html">StoryOriginPublicStory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryPrivacySettings.html">StoryPrivacySettings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryPrivacySettingsEveryone.html">StoryPrivacySettingsEveryone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryPrivacySettingsContacts.html">StoryPrivacySettingsContacts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryPrivacySettingsCloseFriends.html">StoryPrivacySettingsCloseFriends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryPrivacySettingsSelectedUsers.html">StoryPrivacySettingsSelectedUsers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/types/StoryStealthMode.html">StoryStealthMode</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../api/bound-methods/index.html">Bound Methods</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Bound Methods</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -745,6 +777,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/ClientPlatform.html">ClientPlatform</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/MessageEntityType.html">MessageEntityType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/MessageMediaType.html">MessageMediaType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../api/enums/MessageOriginType.html">MessageOriginType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/MessageServiceType.html">MessageServiceType</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/MessagesFilter.html">MessagesFilter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../api/enums/ParseMode.html">ParseMode</a></li>
@@ -834,43 +867,6 @@
   </aside>
   <div class="main">
     <div class="content">
-
-      <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-      <div class="top-bar">
-          <div class="view-on-github">
-              <a href="https://github.com/TelegramPlayGround/pyrogram" style="font-size: 20px;">
-                  <i class="fa-brands fa-github"></i>
-                  View on GitHub
-              </a>
-          </div>
-          <div class="github-buttons">
-              <table id="stars-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/stargazers">
-                              <i class="fa fa-star"></i>
-                              Star
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-  
-              <!-- <table id="used-by-table" class="github-button">
-                  <tr>
-                      <td>
-                          <a href="https://github.com/TelegramPlayGround/pyrogram/network/dependents">
-                              <i class="fa fa-code"></i>
-                              Used by
-                          </a>
-                      </td>
-                  </tr>
-              </table> -->
-          </div>
-      </div>
-  
-      <div class="horizontal-line"></div>
-  
       <div class="article-container">
         <a href="#" class="back-to-top muted-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -879,11 +875,11 @@
           <span>Back to top</span>
         </a>
         <div class="content-icon-container">
-          <div class="theme-toggle-container theme-toggle-content">
+          
+<div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
-              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
-              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
@@ -893,441 +889,446 @@
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
-        <div class="article">
-            <article role="main" id="furo-main-content" class="article__content">
-            <section id="update">
+        <article role="main">
+          <section id="update">
 <h1>Update<a class="headerlink" href="#update" title="Link to this heading">#</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="pyrogram.raw.base.Update">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pyrogram.raw.base.</span></span><span class="sig-name descname"><span class="pre">Update</span></span><a class="headerlink" href="#pyrogram.raw.base.Update" title="Link to this definition">#</a></dt>
-<dd><p>Object contains info on events occurred.</p>
+<dd><p>Telegram API base type.</p>
 <dl>
-<dt>Constructors:</dt><dd><p>This base type has 141 constructors available.</p>
+<dt>Constructors:</dt><dd><p>This base type has 143 constructors available.</p>
 <div class="table-wrapper autosummary longtable docutils container">
 <table class="autosummary longtable docutils align-default">
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-attach-menu-bots.html#pyrogram.raw.types.UpdateAttachMenuBots" title="pyrogram.raw.types.UpdateAttachMenuBots"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateAttachMenuBots</span></code></a></p></td>
-<td><p>The list of installed attachment menu entries » has changed, use messages.getAttachMenuBots to fetch the updated list.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-auto-save-settings.html#pyrogram.raw.types.UpdateAutoSaveSettings" title="pyrogram.raw.types.UpdateAutoSaveSettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateAutoSaveSettings</span></code></a></p></td>
-<td><p>Media autosave settings have changed and must be refetched using account.getAutoSaveSettings.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-business-connect.html#pyrogram.raw.types.UpdateBotBusinessConnect" title="pyrogram.raw.types.UpdateBotBusinessConnect"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotBusinessConnect</span></code></a></p></td>
-<td><p>Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection_id that will be used by the bot to handle updates from and send messages as the user.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-callback-query.html#pyrogram.raw.types.UpdateBotCallbackQuery" title="pyrogram.raw.types.UpdateBotCallbackQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotCallbackQuery</span></code></a></p></td>
-<td><p>A callback button was pressed, and the button data was sent to the bot that created the button</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-chat-boost.html#pyrogram.raw.types.UpdateBotChatBoost" title="pyrogram.raw.types.UpdateBotChatBoost"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotChatBoost</span></code></a></p></td>
-<td><p>A channel/supergroup boost has changed (bots only)</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-chat-invite-requester.html#pyrogram.raw.types.UpdateBotChatInviteRequester" title="pyrogram.raw.types.UpdateBotChatInviteRequester"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotChatInviteRequester</span></code></a></p></td>
-<td><p>Someone has requested to join a chat or channel (bots only, users will receive an updatePendingJoinRequests, instead)</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-commands.html#pyrogram.raw.types.UpdateBotCommands" title="pyrogram.raw.types.UpdateBotCommands"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotCommands</span></code></a></p></td>
-<td><p>The command set of a certain bot in a certain chat has changed.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-delete-business-message.html#pyrogram.raw.types.UpdateBotDeleteBusinessMessage" title="pyrogram.raw.types.UpdateBotDeleteBusinessMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotDeleteBusinessMessage</span></code></a></p></td>
-<td><p>A message was deleted in a connected business chat ».</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-edit-business-message.html#pyrogram.raw.types.UpdateBotEditBusinessMessage" title="pyrogram.raw.types.UpdateBotEditBusinessMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotEditBusinessMessage</span></code></a></p></td>
-<td><p>A message was edited in a connected business chat ».</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-inline-query.html#pyrogram.raw.types.UpdateBotInlineQuery" title="pyrogram.raw.types.UpdateBotInlineQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotInlineQuery</span></code></a></p></td>
-<td><p>An incoming inline query</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-inline-send.html#pyrogram.raw.types.UpdateBotInlineSend" title="pyrogram.raw.types.UpdateBotInlineSend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotInlineSend</span></code></a></p></td>
-<td><p>The result of an inline query that was chosen by a user and sent to their chat partner.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-menu-button.html#pyrogram.raw.types.UpdateBotMenuButton" title="pyrogram.raw.types.UpdateBotMenuButton"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMenuButton</span></code></a></p></td>
-<td><p>The menu button behavior for the specified bot has changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-message-reaction.html#pyrogram.raw.types.UpdateBotMessageReaction" title="pyrogram.raw.types.UpdateBotMessageReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMessageReaction</span></code></a></p></td>
-<td><p>Bots only: a user has changed their reactions on a message with public reactions.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-message-reactions.html#pyrogram.raw.types.UpdateBotMessageReactions" title="pyrogram.raw.types.UpdateBotMessageReactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotMessageReactions</span></code></a></p></td>
-<td><p>Bots only: the number of reactions on a message with anonymous reactions has changed.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-new-business-message.html#pyrogram.raw.types.UpdateBotNewBusinessMessage" title="pyrogram.raw.types.UpdateBotNewBusinessMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotNewBusinessMessage</span></code></a></p></td>
-<td><p>A message was received via a connected business chat ».</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-precheckout-query.html#pyrogram.raw.types.UpdateBotPrecheckoutQuery" title="pyrogram.raw.types.UpdateBotPrecheckoutQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotPrecheckoutQuery</span></code></a></p></td>
-<td><p>This object contains information about an incoming pre-checkout query.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-purchased-paid-media.html#pyrogram.raw.types.UpdateBotPurchasedPaidMedia" title="pyrogram.raw.types.UpdateBotPurchasedPaidMedia"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotPurchasedPaidMedia</span></code></a></p></td>
-<td><p>Bots only: a user has purchased a paid media.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-shipping-query.html#pyrogram.raw.types.UpdateBotShippingQuery" title="pyrogram.raw.types.UpdateBotShippingQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotShippingQuery</span></code></a></p></td>
-<td><p>This object contains information about an incoming shipping query.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-stopped.html#pyrogram.raw.types.UpdateBotStopped" title="pyrogram.raw.types.UpdateBotStopped"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotStopped</span></code></a></p></td>
-<td><p>A bot was stopped or re-started.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-bot-webhook-json.html#pyrogram.raw.types.UpdateBotWebhookJSON" title="pyrogram.raw.types.UpdateBotWebhookJSON"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotWebhookJSON</span></code></a></p></td>
-<td><p>A new incoming event; for bots only</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-bot-webhook-json-query.html#pyrogram.raw.types.UpdateBotWebhookJSONQuery" title="pyrogram.raw.types.UpdateBotWebhookJSONQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBotWebhookJSONQuery</span></code></a></p></td>
-<td><p>A new incoming query; for bots only</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-broadcast-revenue-transactions.html#pyrogram.raw.types.UpdateBroadcastRevenueTransactions" title="pyrogram.raw.types.UpdateBroadcastRevenueTransactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBroadcastRevenueTransactions</span></code></a></p></td>
-<td><p>A new channel ad revenue transaction was made, see here » for more info.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-business-bot-callback-query.html#pyrogram.raw.types.UpdateBusinessBotCallbackQuery" title="pyrogram.raw.types.UpdateBusinessBotCallbackQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateBusinessBotCallbackQuery</span></code></a></p></td>
-<td><p>A callback button sent via a business connection was pressed, and the button data was sent to the bot that created the button.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel.html#pyrogram.raw.types.UpdateChannel" title="pyrogram.raw.types.UpdateChannel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannel</span></code></a></p></td>
-<td><p>Channel/supergroup (channel and/or channelFull) information was updated.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-available-messages.html#pyrogram.raw.types.UpdateChannelAvailableMessages" title="pyrogram.raw.types.UpdateChannelAvailableMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelAvailableMessages</span></code></a></p></td>
-<td><p>The history of a channel/supergroup was hidden.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-message-forwards.html#pyrogram.raw.types.UpdateChannelMessageForwards" title="pyrogram.raw.types.UpdateChannelMessageForwards"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelMessageForwards</span></code></a></p></td>
-<td><p>The forward counter of a message in a channel has changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-message-views.html#pyrogram.raw.types.UpdateChannelMessageViews" title="pyrogram.raw.types.UpdateChannelMessageViews"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelMessageViews</span></code></a></p></td>
-<td><p>The view counter of a message in a channel has changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-participant.html#pyrogram.raw.types.UpdateChannelParticipant" title="pyrogram.raw.types.UpdateChannelParticipant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelParticipant</span></code></a></p></td>
-<td><p>A participant has left, joined, was banned or admined in a channel or supergroup.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-pinned-topic.html#pyrogram.raw.types.UpdateChannelPinnedTopic" title="pyrogram.raw.types.UpdateChannelPinnedTopic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelPinnedTopic</span></code></a></p></td>
-<td><p>A forum topic » was pinned or unpinned.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-pinned-topics.html#pyrogram.raw.types.UpdateChannelPinnedTopics" title="pyrogram.raw.types.UpdateChannelPinnedTopics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelPinnedTopics</span></code></a></p></td>
-<td><p>The pinned topics of a forum have changed.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-read-messages-contents.html#pyrogram.raw.types.UpdateChannelReadMessagesContents" title="pyrogram.raw.types.UpdateChannelReadMessagesContents"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelReadMessagesContents</span></code></a></p></td>
-<td><p>The specified channel/supergroup messages were read</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-too-long.html#pyrogram.raw.types.UpdateChannelTooLong" title="pyrogram.raw.types.UpdateChannelTooLong"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelTooLong</span></code></a></p></td>
-<td><p>There are new updates in the specified channel, the client must fetch them.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-user-typing.html#pyrogram.raw.types.UpdateChannelUserTyping" title="pyrogram.raw.types.UpdateChannelUserTyping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelUserTyping</span></code></a></p></td>
-<td><p>A user is typing in a supergroup, channel or message thread</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-channel-view-forum-as-messages.html#pyrogram.raw.types.UpdateChannelViewForumAsMessages" title="pyrogram.raw.types.UpdateChannelViewForumAsMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelViewForumAsMessages</span></code></a></p></td>
-<td><p>Users may also choose to display messages from all topics as if they were sent to a normal group, using a &quot;View as messages&quot; setting in the local client.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-channel-web-page.html#pyrogram.raw.types.UpdateChannelWebPage" title="pyrogram.raw.types.UpdateChannelWebPage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChannelWebPage</span></code></a></p></td>
-<td><p>A webpage preview of a link in a channel/supergroup message was generated</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat.html#pyrogram.raw.types.UpdateChat" title="pyrogram.raw.types.UpdateChat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChat</span></code></a></p></td>
-<td><p>Chat (chat and/or chatFull) information was updated.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-default-banned-rights.html#pyrogram.raw.types.UpdateChatDefaultBannedRights" title="pyrogram.raw.types.UpdateChatDefaultBannedRights"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatDefaultBannedRights</span></code></a></p></td>
-<td><p>Default banned rights in a normal chat were updated</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-participant.html#pyrogram.raw.types.UpdateChatParticipant" title="pyrogram.raw.types.UpdateChatParticipant"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipant</span></code></a></p></td>
-<td><p>A user has joined or left a specific chat</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-participant-add.html#pyrogram.raw.types.UpdateChatParticipantAdd" title="pyrogram.raw.types.UpdateChatParticipantAdd"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantAdd</span></code></a></p></td>
-<td><p>New group member.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-participant-admin.html#pyrogram.raw.types.UpdateChatParticipantAdmin" title="pyrogram.raw.types.UpdateChatParticipantAdmin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantAdmin</span></code></a></p></td>
-<td><p>Admin permissions of a user in a basic group were changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-participant-delete.html#pyrogram.raw.types.UpdateChatParticipantDelete" title="pyrogram.raw.types.UpdateChatParticipantDelete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipantDelete</span></code></a></p></td>
-<td><p>A member has left the group.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-chat-participants.html#pyrogram.raw.types.UpdateChatParticipants" title="pyrogram.raw.types.UpdateChatParticipants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatParticipants</span></code></a></p></td>
-<td><p>Composition of chat participants changed.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-chat-user-typing.html#pyrogram.raw.types.UpdateChatUserTyping" title="pyrogram.raw.types.UpdateChatUserTyping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateChatUserTyping</span></code></a></p></td>
-<td><p>The user is preparing a message in a group; typing, recording, uploading, etc.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-config.html#pyrogram.raw.types.UpdateConfig" title="pyrogram.raw.types.UpdateConfig"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateConfig</span></code></a></p></td>
-<td><p>The server-side configuration has changed; the client should re-fetch the config using help.getConfig and help.getAppConfig.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-contacts-reset.html#pyrogram.raw.types.UpdateContactsReset" title="pyrogram.raw.types.UpdateContactsReset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateContactsReset</span></code></a></p></td>
-<td><p>All contacts were deleted</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-dc-options.html#pyrogram.raw.types.UpdateDcOptions" title="pyrogram.raw.types.UpdateDcOptions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDcOptions</span></code></a></p></td>
-<td><p>Changes in the data center configuration options.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-delete-channel-messages.html#pyrogram.raw.types.UpdateDeleteChannelMessages" title="pyrogram.raw.types.UpdateDeleteChannelMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteChannelMessages</span></code></a></p></td>
-<td><p>Some messages in a supergroup/channel were deleted</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-delete-messages.html#pyrogram.raw.types.UpdateDeleteMessages" title="pyrogram.raw.types.UpdateDeleteMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteMessages</span></code></a></p></td>
-<td><p>Messages were deleted.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-delete-quick-reply.html#pyrogram.raw.types.UpdateDeleteQuickReply" title="pyrogram.raw.types.UpdateDeleteQuickReply"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteQuickReply</span></code></a></p></td>
-<td><p>A quick reply shortcut » was deleted.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-delete-quick-reply-messages.html#pyrogram.raw.types.UpdateDeleteQuickReplyMessages" title="pyrogram.raw.types.UpdateDeleteQuickReplyMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteQuickReplyMessages</span></code></a></p></td>
-<td><p>One or more messages in a quick reply shortcut » were deleted.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-delete-scheduled-messages.html#pyrogram.raw.types.UpdateDeleteScheduledMessages" title="pyrogram.raw.types.UpdateDeleteScheduledMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDeleteScheduledMessages</span></code></a></p></td>
-<td><p>Some scheduled messages were deleted (or sent) from the schedule queue of a chat</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-dialog-filter.html#pyrogram.raw.types.UpdateDialogFilter" title="pyrogram.raw.types.UpdateDialogFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilter</span></code></a></p></td>
-<td><p>A new folder was added</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dialog-filter-order.html#pyrogram.raw.types.UpdateDialogFilterOrder" title="pyrogram.raw.types.UpdateDialogFilterOrder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilterOrder</span></code></a></p></td>
-<td><p>New folder order</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-dialog-filters.html#pyrogram.raw.types.UpdateDialogFilters" title="pyrogram.raw.types.UpdateDialogFilters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogFilters</span></code></a></p></td>
-<td><p>Clients should update folder info</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-dialog-pinned.html#pyrogram.raw.types.UpdateDialogPinned" title="pyrogram.raw.types.UpdateDialogPinned"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogPinned</span></code></a></p></td>
-<td><p>A dialog was pinned/unpinned</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-dialog-unread-mark.html#pyrogram.raw.types.UpdateDialogUnreadMark" title="pyrogram.raw.types.UpdateDialogUnreadMark"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDialogUnreadMark</span></code></a></p></td>
-<td><p>The manual unread mark of a chat was changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-draft-message.html#pyrogram.raw.types.UpdateDraftMessage" title="pyrogram.raw.types.UpdateDraftMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateDraftMessage</span></code></a></p></td>
-<td><p>Notifies a change of a message draft.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-edit-channel-message.html#pyrogram.raw.types.UpdateEditChannelMessage" title="pyrogram.raw.types.UpdateEditChannelMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEditChannelMessage</span></code></a></p></td>
-<td><p>A message was edited in a channel/supergroup</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-edit-message.html#pyrogram.raw.types.UpdateEditMessage" title="pyrogram.raw.types.UpdateEditMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEditMessage</span></code></a></p></td>
-<td><p>A message was edited</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-encrypted-chat-typing.html#pyrogram.raw.types.UpdateEncryptedChatTyping" title="pyrogram.raw.types.UpdateEncryptedChatTyping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryptedChatTyping</span></code></a></p></td>
-<td><p>Interlocutor is typing a message in an encrypted chat.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-encrypted-messages-read.html#pyrogram.raw.types.UpdateEncryptedMessagesRead" title="pyrogram.raw.types.UpdateEncryptedMessagesRead"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryptedMessagesRead</span></code></a></p></td>
-<td><p>Communication history in an encrypted chat was marked as read.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-encryption.html#pyrogram.raw.types.UpdateEncryption" title="pyrogram.raw.types.UpdateEncryption"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateEncryption</span></code></a></p></td>
-<td><p>Change of state in an encrypted chat.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-faved-stickers.html#pyrogram.raw.types.UpdateFavedStickers" title="pyrogram.raw.types.UpdateFavedStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateFavedStickers</span></code></a></p></td>
-<td><p>The list of favorited stickers was changed, the client should call messages.getFavedStickers to refetch the new list</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-folder-peers.html#pyrogram.raw.types.UpdateFolderPeers" title="pyrogram.raw.types.UpdateFolderPeers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateFolderPeers</span></code></a></p></td>
-<td><p>The peer list of a peer folder was updated</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-geo-live-viewed.html#pyrogram.raw.types.UpdateGeoLiveViewed" title="pyrogram.raw.types.UpdateGeoLiveViewed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGeoLiveViewed</span></code></a></p></td>
-<td><p>Live geoposition message was viewed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-group-call.html#pyrogram.raw.types.UpdateGroupCall" title="pyrogram.raw.types.UpdateGroupCall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCall</span></code></a></p></td>
-<td><p>A new groupcall was started</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-group-call-connection.html#pyrogram.raw.types.UpdateGroupCallConnection" title="pyrogram.raw.types.UpdateGroupCallConnection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallConnection</span></code></a></p></td>
-<td><p>New WebRTC parameters</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-group-call-chain-blocks.html#pyrogram.raw.types.UpdateGroupCallChainBlocks" title="pyrogram.raw.types.UpdateGroupCallChainBlocks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallChainBlocks</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-group-call-participants.html#pyrogram.raw.types.UpdateGroupCallParticipants" title="pyrogram.raw.types.UpdateGroupCallParticipants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallParticipants</span></code></a></p></td>
-<td><p>The participant list of a certain group call has changed</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-group-call-connection.html#pyrogram.raw.types.UpdateGroupCallConnection" title="pyrogram.raw.types.UpdateGroupCallConnection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallConnection</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-inline-bot-callback-query.html#pyrogram.raw.types.UpdateInlineBotCallbackQuery" title="pyrogram.raw.types.UpdateInlineBotCallbackQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateInlineBotCallbackQuery</span></code></a></p></td>
-<td><p>This notification is received by bots when a button is pressed</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-group-call-participants.html#pyrogram.raw.types.UpdateGroupCallParticipants" title="pyrogram.raw.types.UpdateGroupCallParticipants"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateGroupCallParticipants</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-lang-pack.html#pyrogram.raw.types.UpdateLangPack" title="pyrogram.raw.types.UpdateLangPack"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPack</span></code></a></p></td>
-<td><p>Language pack updated</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-inline-bot-callback-query.html#pyrogram.raw.types.UpdateInlineBotCallbackQuery" title="pyrogram.raw.types.UpdateInlineBotCallbackQuery"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateInlineBotCallbackQuery</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-lang-pack-too-long.html#pyrogram.raw.types.UpdateLangPackTooLong" title="pyrogram.raw.types.UpdateLangPackTooLong"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPackTooLong</span></code></a></p></td>
-<td><p>A language pack has changed, the client should manually fetch the changed strings using langpack.getDifference</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-lang-pack.html#pyrogram.raw.types.UpdateLangPack" title="pyrogram.raw.types.UpdateLangPack"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPack</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-login-token.html#pyrogram.raw.types.UpdateLoginToken" title="pyrogram.raw.types.UpdateLoginToken"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLoginToken</span></code></a></p></td>
-<td><p>A login token (for login via QR code) was accepted.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-lang-pack-too-long.html#pyrogram.raw.types.UpdateLangPackTooLong" title="pyrogram.raw.types.UpdateLangPackTooLong"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLangPackTooLong</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-extended-media.html#pyrogram.raw.types.UpdateMessageExtendedMedia" title="pyrogram.raw.types.UpdateMessageExtendedMedia"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageExtendedMedia</span></code></a></p></td>
-<td><p>You bought a paid media »: this update contains the revealed media.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-login-token.html#pyrogram.raw.types.UpdateLoginToken" title="pyrogram.raw.types.UpdateLoginToken"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateLoginToken</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-id.html#pyrogram.raw.types.UpdateMessageID" title="pyrogram.raw.types.UpdateMessageID"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageID</span></code></a></p></td>
-<td><p>Sent message with random_id client identifier was assigned an identifier.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-extended-media.html#pyrogram.raw.types.UpdateMessageExtendedMedia" title="pyrogram.raw.types.UpdateMessageExtendedMedia"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageExtendedMedia</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-poll.html#pyrogram.raw.types.UpdateMessagePoll" title="pyrogram.raw.types.UpdateMessagePoll"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePoll</span></code></a></p></td>
-<td><p>The results of a poll have changed</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-id.html#pyrogram.raw.types.UpdateMessageID" title="pyrogram.raw.types.UpdateMessageID"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageID</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-poll-vote.html#pyrogram.raw.types.UpdateMessagePollVote" title="pyrogram.raw.types.UpdateMessagePollVote"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePollVote</span></code></a></p></td>
-<td><p>A specific peer has voted in a poll</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-poll.html#pyrogram.raw.types.UpdateMessagePoll" title="pyrogram.raw.types.UpdateMessagePoll"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePoll</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-reactions.html#pyrogram.raw.types.UpdateMessageReactions" title="pyrogram.raw.types.UpdateMessageReactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageReactions</span></code></a></p></td>
-<td><p>New message reactions » are available</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-message-poll-vote.html#pyrogram.raw.types.UpdateMessagePollVote" title="pyrogram.raw.types.UpdateMessagePollVote"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessagePollVote</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-move-sticker-set-to-top.html#pyrogram.raw.types.UpdateMoveStickerSetToTop" title="pyrogram.raw.types.UpdateMoveStickerSetToTop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMoveStickerSetToTop</span></code></a></p></td>
-<td><p>A stickerset was just moved to top, see here for more info »</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-message-reactions.html#pyrogram.raw.types.UpdateMessageReactions" title="pyrogram.raw.types.UpdateMessageReactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMessageReactions</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-authorization.html#pyrogram.raw.types.UpdateNewAuthorization" title="pyrogram.raw.types.UpdateNewAuthorization"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewAuthorization</span></code></a></p></td>
-<td><p>A new session logged into the current user's account through an unknown device.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-move-sticker-set-to-top.html#pyrogram.raw.types.UpdateMoveStickerSetToTop" title="pyrogram.raw.types.UpdateMoveStickerSetToTop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateMoveStickerSetToTop</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-channel-message.html#pyrogram.raw.types.UpdateNewChannelMessage" title="pyrogram.raw.types.UpdateNewChannelMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewChannelMessage</span></code></a></p></td>
-<td><p>A new message was sent in a channel/supergroup</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-authorization.html#pyrogram.raw.types.UpdateNewAuthorization" title="pyrogram.raw.types.UpdateNewAuthorization"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewAuthorization</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-encrypted-message.html#pyrogram.raw.types.UpdateNewEncryptedMessage" title="pyrogram.raw.types.UpdateNewEncryptedMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewEncryptedMessage</span></code></a></p></td>
-<td><p>New encrypted message.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-channel-message.html#pyrogram.raw.types.UpdateNewChannelMessage" title="pyrogram.raw.types.UpdateNewChannelMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewChannelMessage</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-message.html#pyrogram.raw.types.UpdateNewMessage" title="pyrogram.raw.types.UpdateNewMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewMessage</span></code></a></p></td>
-<td><p>New message in a private chat or in a basic group.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-encrypted-message.html#pyrogram.raw.types.UpdateNewEncryptedMessage" title="pyrogram.raw.types.UpdateNewEncryptedMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewEncryptedMessage</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-quick-reply.html#pyrogram.raw.types.UpdateNewQuickReply" title="pyrogram.raw.types.UpdateNewQuickReply"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewQuickReply</span></code></a></p></td>
-<td><p>A new quick reply shortcut » was created.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-message.html#pyrogram.raw.types.UpdateNewMessage" title="pyrogram.raw.types.UpdateNewMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewMessage</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-scheduled-message.html#pyrogram.raw.types.UpdateNewScheduledMessage" title="pyrogram.raw.types.UpdateNewScheduledMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewScheduledMessage</span></code></a></p></td>
-<td><p>A message was added to the schedule queue of a chat</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-quick-reply.html#pyrogram.raw.types.UpdateNewQuickReply" title="pyrogram.raw.types.UpdateNewQuickReply"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewQuickReply</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-sticker-set.html#pyrogram.raw.types.UpdateNewStickerSet" title="pyrogram.raw.types.UpdateNewStickerSet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStickerSet</span></code></a></p></td>
-<td><p>A new stickerset was installed</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-scheduled-message.html#pyrogram.raw.types.UpdateNewScheduledMessage" title="pyrogram.raw.types.UpdateNewScheduledMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewScheduledMessage</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-story-reaction.html#pyrogram.raw.types.UpdateNewStoryReaction" title="pyrogram.raw.types.UpdateNewStoryReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStoryReaction</span></code></a></p></td>
-<td><p>Represents a new reaction to a story.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-new-sticker-set.html#pyrogram.raw.types.UpdateNewStickerSet" title="pyrogram.raw.types.UpdateNewStickerSet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStickerSet</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-notify-settings.html#pyrogram.raw.types.UpdateNotifySettings" title="pyrogram.raw.types.UpdateNotifySettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNotifySettings</span></code></a></p></td>
-<td><p>Changes in notification settings.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-new-story-reaction.html#pyrogram.raw.types.UpdateNewStoryReaction" title="pyrogram.raw.types.UpdateNewStoryReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNewStoryReaction</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-paid-reaction-privacy.html#pyrogram.raw.types.UpdatePaidReactionPrivacy" title="pyrogram.raw.types.UpdatePaidReactionPrivacy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePaidReactionPrivacy</span></code></a></p></td>
-<td><p>Contains the current default paid reaction privacy, see here » for more info.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-notify-settings.html#pyrogram.raw.types.UpdateNotifySettings" title="pyrogram.raw.types.UpdateNotifySettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateNotifySettings</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-blocked.html#pyrogram.raw.types.UpdatePeerBlocked" title="pyrogram.raw.types.UpdatePeerBlocked"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerBlocked</span></code></a></p></td>
-<td><p>We blocked a peer, see here » for more info on blocklists.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-paid-reaction-privacy.html#pyrogram.raw.types.UpdatePaidReactionPrivacy" title="pyrogram.raw.types.UpdatePaidReactionPrivacy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePaidReactionPrivacy</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-history-ttl.html#pyrogram.raw.types.UpdatePeerHistoryTTL" title="pyrogram.raw.types.UpdatePeerHistoryTTL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerHistoryTTL</span></code></a></p></td>
-<td><p>The Time-To-Live for messages sent by the current user in a specific chat has changed</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-blocked.html#pyrogram.raw.types.UpdatePeerBlocked" title="pyrogram.raw.types.UpdatePeerBlocked"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerBlocked</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-located.html#pyrogram.raw.types.UpdatePeerLocated" title="pyrogram.raw.types.UpdatePeerLocated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerLocated</span></code></a></p></td>
-<td><p>List of peers near you was updated</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-history-ttl.html#pyrogram.raw.types.UpdatePeerHistoryTTL" title="pyrogram.raw.types.UpdatePeerHistoryTTL"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerHistoryTTL</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-settings.html#pyrogram.raw.types.UpdatePeerSettings" title="pyrogram.raw.types.UpdatePeerSettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerSettings</span></code></a></p></td>
-<td><p>Settings of a certain peer have changed</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-located.html#pyrogram.raw.types.UpdatePeerLocated" title="pyrogram.raw.types.UpdatePeerLocated"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerLocated</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-wallpaper.html#pyrogram.raw.types.UpdatePeerWallpaper" title="pyrogram.raw.types.UpdatePeerWallpaper"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerWallpaper</span></code></a></p></td>
-<td><p>The wallpaper » of a given peer has changed.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-peer-settings.html#pyrogram.raw.types.UpdatePeerSettings" title="pyrogram.raw.types.UpdatePeerSettings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerSettings</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pending-join-requests.html#pyrogram.raw.types.UpdatePendingJoinRequests" title="pyrogram.raw.types.UpdatePendingJoinRequests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePendingJoinRequests</span></code></a></p></td>
-<td><p>Someone has requested to join a chat or channel</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-peer-wallpaper.html#pyrogram.raw.types.UpdatePeerWallpaper" title="pyrogram.raw.types.UpdatePeerWallpaper"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePeerWallpaper</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-phone-call.html#pyrogram.raw.types.UpdatePhoneCall" title="pyrogram.raw.types.UpdatePhoneCall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCall</span></code></a></p></td>
-<td><p>An incoming phone call</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pending-join-requests.html#pyrogram.raw.types.UpdatePendingJoinRequests" title="pyrogram.raw.types.UpdatePendingJoinRequests"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePendingJoinRequests</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-phone-call-signaling-data.html#pyrogram.raw.types.UpdatePhoneCallSignalingData" title="pyrogram.raw.types.UpdatePhoneCallSignalingData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCallSignalingData</span></code></a></p></td>
-<td><p>Incoming phone call signaling payload</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-phone-call.html#pyrogram.raw.types.UpdatePhoneCall" title="pyrogram.raw.types.UpdatePhoneCall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCall</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-channel-messages.html#pyrogram.raw.types.UpdatePinnedChannelMessages" title="pyrogram.raw.types.UpdatePinnedChannelMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedChannelMessages</span></code></a></p></td>
-<td><p>Messages were pinned/unpinned in a channel/supergroup</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-phone-call-signaling-data.html#pyrogram.raw.types.UpdatePhoneCallSignalingData" title="pyrogram.raw.types.UpdatePhoneCallSignalingData"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePhoneCallSignalingData</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-dialogs.html#pyrogram.raw.types.UpdatePinnedDialogs" title="pyrogram.raw.types.UpdatePinnedDialogs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedDialogs</span></code></a></p></td>
-<td><p>Pinned dialogs were updated</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-channel-messages.html#pyrogram.raw.types.UpdatePinnedChannelMessages" title="pyrogram.raw.types.UpdatePinnedChannelMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedChannelMessages</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-messages.html#pyrogram.raw.types.UpdatePinnedMessages" title="pyrogram.raw.types.UpdatePinnedMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedMessages</span></code></a></p></td>
-<td><p>Some messages were pinned in a chat</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-dialogs.html#pyrogram.raw.types.UpdatePinnedDialogs" title="pyrogram.raw.types.UpdatePinnedDialogs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedDialogs</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-saved-dialogs.html#pyrogram.raw.types.UpdatePinnedSavedDialogs" title="pyrogram.raw.types.UpdatePinnedSavedDialogs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedSavedDialogs</span></code></a></p></td>
-<td><p>Pinned saved dialogs » were updated</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pinned-messages.html#pyrogram.raw.types.UpdatePinnedMessages" title="pyrogram.raw.types.UpdatePinnedMessages"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedMessages</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-privacy.html#pyrogram.raw.types.UpdatePrivacy" title="pyrogram.raw.types.UpdatePrivacy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePrivacy</span></code></a></p></td>
-<td><p>Privacy rules were changed</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pinned-saved-dialogs.html#pyrogram.raw.types.UpdatePinnedSavedDialogs" title="pyrogram.raw.types.UpdatePinnedSavedDialogs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePinnedSavedDialogs</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-pts-changed.html#pyrogram.raw.types.UpdatePtsChanged" title="pyrogram.raw.types.UpdatePtsChanged"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePtsChanged</span></code></a></p></td>
-<td><p>Common message box sequence PTS has changed, state has to be refetched using updates.getState</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-privacy.html#pyrogram.raw.types.UpdatePrivacy" title="pyrogram.raw.types.UpdatePrivacy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePrivacy</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-quick-replies.html#pyrogram.raw.types.UpdateQuickReplies" title="pyrogram.raw.types.UpdateQuickReplies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplies</span></code></a></p></td>
-<td><p>Info about or the order of quick reply shortcuts » was changed.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-pts-changed.html#pyrogram.raw.types.UpdatePtsChanged" title="pyrogram.raw.types.UpdatePtsChanged"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdatePtsChanged</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-quick-reply-message.html#pyrogram.raw.types.UpdateQuickReplyMessage" title="pyrogram.raw.types.UpdateQuickReplyMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplyMessage</span></code></a></p></td>
-<td><p>A new message was added to a quick reply shortcut ».</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-quick-replies.html#pyrogram.raw.types.UpdateQuickReplies" title="pyrogram.raw.types.UpdateQuickReplies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplies</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-inbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionInbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionInbox</span></code></a></p></td>
-<td><p>Incoming comments in a discussion thread were marked as read</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-quick-reply-message.html#pyrogram.raw.types.UpdateQuickReplyMessage" title="pyrogram.raw.types.UpdateQuickReplyMessage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateQuickReplyMessage</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-outbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionOutbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionOutbox</span></code></a></p></td>
-<td><p>Outgoing comments in a discussion thread were marked as read</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-inbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionInbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionInbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-inbox.html#pyrogram.raw.types.UpdateReadChannelInbox" title="pyrogram.raw.types.UpdateReadChannelInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelInbox</span></code></a></p></td>
-<td><p>Incoming messages in a channel/supergroup were read</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-discussion-outbox.html#pyrogram.raw.types.UpdateReadChannelDiscussionOutbox" title="pyrogram.raw.types.UpdateReadChannelDiscussionOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelDiscussionOutbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-outbox.html#pyrogram.raw.types.UpdateReadChannelOutbox" title="pyrogram.raw.types.UpdateReadChannelOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelOutbox</span></code></a></p></td>
-<td><p>Outgoing messages in a channel/supergroup were read</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-channel-inbox.html#pyrogram.raw.types.UpdateReadChannelInbox" title="pyrogram.raw.types.UpdateReadChannelInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelInbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-featured-emoji-stickers.html#pyrogram.raw.types.UpdateReadFeaturedEmojiStickers" title="pyrogram.raw.types.UpdateReadFeaturedEmojiStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedEmojiStickers</span></code></a></p></td>
-<td><p>Some featured custom emoji stickers were marked as read</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-channel-outbox.html#pyrogram.raw.types.UpdateReadChannelOutbox" title="pyrogram.raw.types.UpdateReadChannelOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadChannelOutbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-featured-stickers.html#pyrogram.raw.types.UpdateReadFeaturedStickers" title="pyrogram.raw.types.UpdateReadFeaturedStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedStickers</span></code></a></p></td>
-<td><p>Some featured stickers were marked as read</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-featured-emoji-stickers.html#pyrogram.raw.types.UpdateReadFeaturedEmojiStickers" title="pyrogram.raw.types.UpdateReadFeaturedEmojiStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedEmojiStickers</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-history-inbox.html#pyrogram.raw.types.UpdateReadHistoryInbox" title="pyrogram.raw.types.UpdateReadHistoryInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryInbox</span></code></a></p></td>
-<td><p>Incoming messages were read</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-featured-stickers.html#pyrogram.raw.types.UpdateReadFeaturedStickers" title="pyrogram.raw.types.UpdateReadFeaturedStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadFeaturedStickers</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-history-outbox.html#pyrogram.raw.types.UpdateReadHistoryOutbox" title="pyrogram.raw.types.UpdateReadHistoryOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryOutbox</span></code></a></p></td>
-<td><p>Outgoing messages were read</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-history-inbox.html#pyrogram.raw.types.UpdateReadHistoryInbox" title="pyrogram.raw.types.UpdateReadHistoryInbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryInbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-messages-contents.html#pyrogram.raw.types.UpdateReadMessagesContents" title="pyrogram.raw.types.UpdateReadMessagesContents"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadMessagesContents</span></code></a></p></td>
-<td><p>Contents of messages in the common message box were read</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-history-outbox.html#pyrogram.raw.types.UpdateReadHistoryOutbox" title="pyrogram.raw.types.UpdateReadHistoryOutbox"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadHistoryOutbox</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-stories.html#pyrogram.raw.types.UpdateReadStories" title="pyrogram.raw.types.UpdateReadStories"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadStories</span></code></a></p></td>
-<td><p>Stories of a specific peer were marked as read.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-read-messages-contents.html#pyrogram.raw.types.UpdateReadMessagesContents" title="pyrogram.raw.types.UpdateReadMessagesContents"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadMessagesContents</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-recent-emoji-statuses.html#pyrogram.raw.types.UpdateRecentEmojiStatuses" title="pyrogram.raw.types.UpdateRecentEmojiStatuses"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentEmojiStatuses</span></code></a></p></td>
-<td><p>The list of recent emoji statuses has changed</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-read-stories.html#pyrogram.raw.types.UpdateReadStories" title="pyrogram.raw.types.UpdateReadStories"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateReadStories</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-recent-reactions.html#pyrogram.raw.types.UpdateRecentReactions" title="pyrogram.raw.types.UpdateRecentReactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentReactions</span></code></a></p></td>
-<td><p>The list of recent message reactions has changed</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-recent-emoji-statuses.html#pyrogram.raw.types.UpdateRecentEmojiStatuses" title="pyrogram.raw.types.UpdateRecentEmojiStatuses"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentEmojiStatuses</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-recent-stickers.html#pyrogram.raw.types.UpdateRecentStickers" title="pyrogram.raw.types.UpdateRecentStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentStickers</span></code></a></p></td>
-<td><p>The recent sticker list was updated</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-recent-reactions.html#pyrogram.raw.types.UpdateRecentReactions" title="pyrogram.raw.types.UpdateRecentReactions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentReactions</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-dialog-pinned.html#pyrogram.raw.types.UpdateSavedDialogPinned" title="pyrogram.raw.types.UpdateSavedDialogPinned"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedDialogPinned</span></code></a></p></td>
-<td><p>A saved message dialog was pinned/unpinned</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-recent-stickers.html#pyrogram.raw.types.UpdateRecentStickers" title="pyrogram.raw.types.UpdateRecentStickers"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateRecentStickers</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-gifs.html#pyrogram.raw.types.UpdateSavedGifs" title="pyrogram.raw.types.UpdateSavedGifs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedGifs</span></code></a></p></td>
-<td><p>The saved gif list has changed, the client should refetch it using messages.getSavedGifs</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-dialog-pinned.html#pyrogram.raw.types.UpdateSavedDialogPinned" title="pyrogram.raw.types.UpdateSavedDialogPinned"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedDialogPinned</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-reaction-tags.html#pyrogram.raw.types.UpdateSavedReactionTags" title="pyrogram.raw.types.UpdateSavedReactionTags"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedReactionTags</span></code></a></p></td>
-<td><p>The list of reaction tag » names assigned by the user has changed and should be refetched using messages.getSavedReactionTags ».</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-gifs.html#pyrogram.raw.types.UpdateSavedGifs" title="pyrogram.raw.types.UpdateSavedGifs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedGifs</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-ringtones.html#pyrogram.raw.types.UpdateSavedRingtones" title="pyrogram.raw.types.UpdateSavedRingtones"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedRingtones</span></code></a></p></td>
-<td><p>The list of saved notification sounds has changed, use account.getSavedRingtones to fetch the new list.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-saved-reaction-tags.html#pyrogram.raw.types.UpdateSavedReactionTags" title="pyrogram.raw.types.UpdateSavedReactionTags"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedReactionTags</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="../types/update-saved-ringtones.html#pyrogram.raw.types.UpdateSavedRingtones" title="pyrogram.raw.types.UpdateSavedRingtones"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSavedRingtones</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../types/update-sent-phone-code.html#pyrogram.raw.types.UpdateSentPhoneCode" title="pyrogram.raw.types.UpdateSentPhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSentPhoneCode</span></code></a></p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-sent-story-reaction.html#pyrogram.raw.types.UpdateSentStoryReaction" title="pyrogram.raw.types.UpdateSentStoryReaction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSentStoryReaction</span></code></a></p></td>
-<td><p>Indicates we reacted to a story ».</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-service-notification.html#pyrogram.raw.types.UpdateServiceNotification" title="pyrogram.raw.types.UpdateServiceNotification"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateServiceNotification</span></code></a></p></td>
-<td><p>A service message for the user.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-sms-job.html#pyrogram.raw.types.UpdateSmsJob" title="pyrogram.raw.types.UpdateSmsJob"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateSmsJob</span></code></a></p></td>
-<td><p>A new SMS job was received</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-stars-balance.html#pyrogram.raw.types.UpdateStarsBalance" title="pyrogram.raw.types.UpdateStarsBalance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStarsBalance</span></code></a></p></td>
-<td><p>The current account's Telegram Stars balance » has changed.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-stars-revenue-status.html#pyrogram.raw.types.UpdateStarsRevenueStatus" title="pyrogram.raw.types.UpdateStarsRevenueStatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStarsRevenueStatus</span></code></a></p></td>
-<td><p>The Telegram Star balance of a channel/bot we own has changed ».</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-sticker-sets.html#pyrogram.raw.types.UpdateStickerSets" title="pyrogram.raw.types.UpdateStickerSets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStickerSets</span></code></a></p></td>
-<td><p>Installed stickersets have changed, the client should refetch them as described in the docs.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-sticker-sets-order.html#pyrogram.raw.types.UpdateStickerSetsOrder" title="pyrogram.raw.types.UpdateStickerSetsOrder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStickerSetsOrder</span></code></a></p></td>
-<td><p>The order of stickersets was changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-stories-stealth-mode.html#pyrogram.raw.types.UpdateStoriesStealthMode" title="pyrogram.raw.types.UpdateStoriesStealthMode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStoriesStealthMode</span></code></a></p></td>
-<td><p>Indicates that stories stealth mode was activated.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-story.html#pyrogram.raw.types.UpdateStory" title="pyrogram.raw.types.UpdateStory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStory</span></code></a></p></td>
-<td><p>A new story was posted.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-story-id.html#pyrogram.raw.types.UpdateStoryID" title="pyrogram.raw.types.UpdateStoryID"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateStoryID</span></code></a></p></td>
-<td><p>A story was successfully uploaded.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-theme.html#pyrogram.raw.types.UpdateTheme" title="pyrogram.raw.types.UpdateTheme"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateTheme</span></code></a></p></td>
-<td><p>A cloud theme was updated</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-transcribed-audio.html#pyrogram.raw.types.UpdateTranscribedAudio" title="pyrogram.raw.types.UpdateTranscribedAudio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateTranscribedAudio</span></code></a></p></td>
-<td><p>A pending voice message transcription » initiated with messages.transcribeAudio was updated.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-user.html#pyrogram.raw.types.UpdateUser" title="pyrogram.raw.types.UpdateUser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUser</span></code></a></p></td>
-<td><p>User (user and/or userFull) information was updated.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user-emoji-status.html#pyrogram.raw.types.UpdateUserEmojiStatus" title="pyrogram.raw.types.UpdateUserEmojiStatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserEmojiStatus</span></code></a></p></td>
-<td><p>The emoji status of a certain user has changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-user-name.html#pyrogram.raw.types.UpdateUserName" title="pyrogram.raw.types.UpdateUserName"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserName</span></code></a></p></td>
-<td><p>Changes the user's first name, last name and username.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user-phone.html#pyrogram.raw.types.UpdateUserPhone" title="pyrogram.raw.types.UpdateUserPhone"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserPhone</span></code></a></p></td>
-<td><p>A user's phone number was changed</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-user-status.html#pyrogram.raw.types.UpdateUserStatus" title="pyrogram.raw.types.UpdateUserStatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserStatus</span></code></a></p></td>
-<td><p>Contact status update.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-user-typing.html#pyrogram.raw.types.UpdateUserTyping" title="pyrogram.raw.types.UpdateUserTyping"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateUserTyping</span></code></a></p></td>
-<td><p>The user is preparing a message; typing, recording, uploading, etc.</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="../types/update-web-page.html#pyrogram.raw.types.UpdateWebPage" title="pyrogram.raw.types.UpdateWebPage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateWebPage</span></code></a></p></td>
-<td><p>An instant view webpage preview was generated</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="../types/update-web-view-result-sent.html#pyrogram.raw.types.UpdateWebViewResultSent" title="pyrogram.raw.types.UpdateWebViewResultSent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateWebViewResultSent</span></code></a></p></td>
-<td><p>Indicates to a bot that a webview was closed and an inline message was sent on behalf of the user using messages.sendWebViewResultMessage</p></td>
+<td><p>Telegram API type.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1338,8 +1339,7 @@
 
 </section>
 
-            </article>
-        </div>
+        </article>
       </div>
       <footer>
         
@@ -1374,7 +1374,7 @@
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/c64b851" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
@@ -1415,22 +1415,5 @@
     <script src="../../_static/scripts/furo.js?v=32e29ea5"></script>
     <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../../_static/copybutton.js?v=a56c686a"></script>
-    <!--script defer>
-      fetch("https://counters.pyrogram.org").then(res => res.json()).then(data => {
-            const stars = data.stars
-            const usedBy = data.forks
-
-            if (stars && usedBy) {
-                const starsTable = document.getElementById("stars-table");
-                const starsTd = document.createElement("td");
-                starsTd.innerText = stars.toLocaleString();
-                starsTable.children[0].children[0].appendChild(starsTd);
-
-              /*  const usedByTable = document.getElementById("used-by-table");
-                const usedByTd = document.createElement("td");
-                usedByTd.innerText = usedBy.toLocaleString();
-                usedByTable.children[0].children[0].appendChild(usedByTd); */
-            }
-        });
-    </script--></body>
+    </body>
 </html>
