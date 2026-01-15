@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Update Filters" href="../filters.html" /><link rel="prev" title="420 - Flood" href="flood.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>500 - InternalServerError - PyroTGFork 2.2.12 Layer 203</title>
+        <title>500 - InternalServerError - PyroTGFork 2.2.17 Layer 221</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -126,7 +126,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.17 Layer 221</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -152,7 +152,7 @@
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  <span class="sidebar-brand-text">PyroTGFork 2.2.17 Layer 221</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -283,6 +283,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_message_text.html">translate_message_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/delete_chat_history.html">delete_chat_history</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/send_checklist.html">send_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_message_checklist.html">edit_message_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/mark_checklist_tasks_as_done.html">mark_checklist_tasks_as_done</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -303,6 +306,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_members.html">get_chat_members</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_members_count.html">get_chat_members_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_member.html">get_chat_member</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_direct_messages_topics_by_id.html">get_direct_messages_topics_by_id</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_direct_messages_topics.html">get_direct_messages_topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/set_chat_direct_messages_group.html">set_chat_direct_messages_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_dialogs.html">get_dialogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_dialogs_count.html">get_dialogs_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/set_chat_username.html">set_chat_username</a></li>
@@ -478,6 +484,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/InputPollOption.html">InputPollOption</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Poll.html">Poll</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PollAnswer.html">PollAnswer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTask.html">ChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/Checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputChecklistTask.html">InputChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputChecklist.html">InputChecklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTasksDone.html">ChecklistTasksDone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTasksAdded.html">ChecklistTasksAdded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Location.html">Location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Venue.html">Venue</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Gift.html">Gift</a></li>
@@ -539,6 +551,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/DirectMessagePriceChanged.html">DirectMessagePriceChanged</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/EmojiStatus.html">EmojiStatus</a></li>
@@ -546,6 +559,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/InviteLinkImporter.html">InviteLinkImporter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Restriction.html">Restriction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/RtmpUrl.html">RtmpUrl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/DirectMessagesTopic.html">DirectMessagesTopic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CallbackGame.html">CallbackGame</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CallbackQuery.html">CallbackQuery</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CopyTextButton.html">CopyTextButton</a></li>
@@ -930,119 +944,125 @@
 <tr class="row-odd"><td><p>CHAT_OCCUPY_USERNAME_FAILED</p></td>
 <td><p>Failure to occupy chat username due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>CHP_CALL_FAIL</p></td>
+<tr class="row-even"><td><p>CHP_BAD_EVENT</p></td>
+<td><p>Telegram is having internal problems. Please try again later.</p></td>
+</tr>
+<tr class="row-odd"><td><p>CHP_CALL_FAIL</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>ENCRYPTION_OCCUPY_ADMIN_FAILED</p></td>
+<tr class="row-even"><td><p>ENCRYPTION_OCCUPY_ADMIN_FAILED</p></td>
 <td><p>Failed occupying memory for admin info due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>ENCRYPTION_OCCUPY_FAILED</p></td>
+<tr class="row-odd"><td><p>ENCRYPTION_OCCUPY_FAILED</p></td>
 <td><p>Internal server error while accepting secret chat</p></td>
 </tr>
-<tr class="row-odd"><td><p>FOLDER_DEAC_AUTOFIX_ALL</p></td>
+<tr class="row-even"><td><p>FOLDER_DEAC_AUTOFIX_ALL</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>GROUPCALL_ADD_PARTICIPANTS_FAILED</p></td>
+<tr class="row-odd"><td><p>GROUPCALL_ADD_PARTICIPANTS_FAILED</p></td>
 <td><p>Failure while adding voice chat member due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>GROUPED_ID_OCCUPY_FAILED</p></td>
+<tr class="row-even"><td><p>GROUPED_ID_OCCUPY_FAILED</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>HISTORY_GET_FAILED</p></td>
+<tr class="row-odd"><td><p>HISTORY_GET_FAILED</p></td>
 <td><p>The chat history couldn’t be retrieved due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>IMAGE_ENGINE_DOWN</p></td>
+<tr class="row-even"><td><p>IMAGE_ENGINE_DOWN</p></td>
 <td><p>Image engine down due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>INTERDC_X_CALL_ERROR</p></td>
+<tr class="row-odd"><td><p>INTERDC_X_CALL_ERROR</p></td>
 <td><p>An error occurred while Telegram was intercommunicating with DC{value}. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>INTERDC_X_CALL_RICH_ERROR</p></td>
+<tr class="row-even"><td><p>INTERDC_X_CALL_RICH_ERROR</p></td>
 <td><p>A rich error occurred while Telegram was intercommunicating with DC{value}. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>MEMBER_FETCH_FAILED</p></td>
+<tr class="row-odd"><td><p>MEMBER_FETCH_FAILED</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>MEMBER_NO_LOCATION</p></td>
+<tr class="row-even"><td><p>MEMBER_NO_LOCATION</p></td>
 <td><p>Couldn’t find the member’s location due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>MEMBER_OCCUPY_PRIMARY_LOC_FAILED</p></td>
+<tr class="row-odd"><td><p>MEMBER_OCCUPY_PRIMARY_LOC_FAILED</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>MEMBER_OCCUPY_USERNAME_FAILED</p></td>
+<tr class="row-even"><td><p>MEMBER_OCCUPY_USERNAME_FAILED</p></td>
 <td><p>Failure to occupy member username due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>MSGID_DECREASE_RETRY</p></td>
+<tr class="row-odd"><td><p>MSGID_DECREASE_RETRY</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>MSG_RANGE_UNSYNC</p></td>
+<tr class="row-even"><td><p>MSG_RANGE_UNSYNC</p></td>
 <td><p>Message range unsynchronized due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>MSG_WAIT_FAILED</p></td>
+<tr class="row-odd"><td><p>MSG_WAIT_FAILED</p></td>
 <td><p>A waiting call returned an error.</p></td>
 </tr>
-<tr class="row-odd"><td><p>MT_SEND_QUEUE_TOO_LONG</p></td>
+<tr class="row-even"><td><p>MT_SEND_QUEUE_TOO_LONG</p></td>
 <td><p>The MTProto send queue has grown too much due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>NEED_CHAT_INVALID</p></td>
+<tr class="row-odd"><td><p>NEED_CHAT_INVALID</p></td>
 <td><p>The provided chat is invalid</p></td>
 </tr>
-<tr class="row-odd"><td><p>NEED_MEMBER_INVALID</p></td>
+<tr class="row-even"><td><p>NEED_MEMBER_INVALID</p></td>
 <td><p>The provided member is invalid or does not exist</p></td>
 </tr>
-<tr class="row-even"><td><p>No workers running</p></td>
+<tr class="row-odd"><td><p>No workers running</p></td>
 <td><p>The Telegram server is restarting its workers. Try again later.</p></td>
 </tr>
-<tr class="row-odd"><td><p>PARTICIPANT_CALL_FAILED</p></td>
+<tr class="row-even"><td><p>PARTICIPANT_CALL_FAILED</p></td>
 <td><p>Failure while making call due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>PERSISTENT_TIMESTAMP_OUTDATED</p></td>
+<tr class="row-odd"><td><p>PERSISTENT_TIMESTAMP_OUTDATED</p></td>
 <td><p>Channel internal replication issues, try again later (treat this like an RPC_CALL_FAIL).</p></td>
 </tr>
-<tr class="row-odd"><td><p>PHOTO_CREATE_FAILED</p></td>
+<tr class="row-even"><td><p>PHOTO_CREATE_FAILED</p></td>
 <td><p>The creation of the photo failed due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>POSTPONED_TIMEOUT</p></td>
+<tr class="row-odd"><td><p>POSTPONED_TIMEOUT</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>PTS_CHANGE_EMPTY</p></td>
+<tr class="row-even"><td><p>PTS_CHANGE_EMPTY</p></td>
 <td><p>No PTS change</p></td>
 </tr>
-<tr class="row-even"><td><p>RANDOM_ID_DUPLICATE</p></td>
+<tr class="row-odd"><td><p>RANDOM_ID_DUPLICATE</p></td>
 <td><p>You provided a random ID that was already used.</p></td>
 </tr>
-<tr class="row-odd"><td><p>REG_ID_GENERATE_FAILED</p></td>
+<tr class="row-even"><td><p>REG_ID_GENERATE_FAILED</p></td>
 <td><p>The registration id failed to generate due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>RPC_CALL_FAIL</p></td>
+<tr class="row-odd"><td><p>RPC_CALL_FAIL</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>RPC_CONNECT_FAILED</p></td>
+<tr class="row-even"><td><p>RPC_CONNECT_FAILED</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>RPC_MCGET_FAIL</p></td>
+<tr class="row-odd"><td><p>RPC_MCGET_FAIL</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>RPC_SEND_FAIL</p></td>
+<tr class="row-even"><td><p>RPC_SEND_FAIL</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>SEND_MEDIA_INVALID</p></td>
+<tr class="row-odd"><td><p>SEND_MEDIA_INVALID</p></td>
 <td><p>The specified media is invalid.</p></td>
 </tr>
-<tr class="row-odd"><td><p>SIGN_IN_FAILED</p></td>
+<tr class="row-even"><td><p>SIGN_IN_FAILED</p></td>
 <td><p>Failure while signing in.</p></td>
 </tr>
-<tr class="row-even"><td><p>STORAGE_CHECK_FAILED</p></td>
+<tr class="row-odd"><td><p>STORAGE_CHECK_FAILED</p></td>
 <td><p>Server storage check failed due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>STORAGE_CHOOSE_VOLUME_FAILED</p></td>
+<tr class="row-even"><td><p>STORAGE_CHOOSE_VOLUME_FAILED</p></td>
 <td><p>Storage choose volume failed due to Telegram having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-even"><td><p>STORE_INVALID_SCALAR_TYPE</p></td>
+<tr class="row-odd"><td><p>STORE_INVALID_SCALAR_TYPE</p></td>
 <td><p>Telegram is having internal problems. Please try again later</p></td>
 </tr>
-<tr class="row-odd"><td><p>TRANSLATE_REQ_FAILED</p></td>
+<tr class="row-even"><td><p>TRANSLATE_REQ_FAILED</p></td>
 <td><p>Translation failed, please try again later.</p></td>
+</tr>
+<tr class="row-odd"><td><p>TRANSLATION_TIMEOUT</p></td>
+<td><p>A timeout occurred while translating the specified text.</p></td>
 </tr>
 <tr class="row-even"><td><p>UNKNOWN_METHOD</p></td>
 <td><p>The method you tried to call cannot be called on non-CDN DCs</p></td>
@@ -1099,7 +1119,7 @@
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/91e6454" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               

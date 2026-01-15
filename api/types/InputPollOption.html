@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="Poll" href="Poll.html" /><link rel="prev" title="PollOption" href="PollOption.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>InputPollOption - PyroTGFork 2.2.12 Layer 203</title>
+        <title>InputPollOption - PyroTGFork 2.2.17 Layer 221</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -126,7 +126,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.17 Layer 221</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -152,7 +152,7 @@
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  <span class="sidebar-brand-text">PyroTGFork 2.2.17 Layer 221</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -283,6 +283,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/translate_message_text.html">translate_message_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/delete_chat_history.html">delete_chat_history</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/send_checklist.html">send_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/edit_message_checklist.html">edit_message_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/mark_checklist_tasks_as_done.html">mark_checklist_tasks_as_done</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -303,6 +306,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_members.html">get_chat_members</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_members_count.html">get_chat_members_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_chat_member.html">get_chat_member</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_direct_messages_topics_by_id.html">get_direct_messages_topics_by_id</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/get_direct_messages_topics.html">get_direct_messages_topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../methods/set_chat_direct_messages_group.html">set_chat_direct_messages_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_dialogs.html">get_dialogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/get_dialogs_count.html">get_dialogs_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../methods/set_chat_username.html">set_chat_username</a></li>
@@ -478,6 +484,12 @@
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">InputPollOption</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Poll.html">Poll</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PollAnswer.html">PollAnswer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ChecklistTask.html">ChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputChecklistTask.html">InputChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="InputChecklist.html">InputChecklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ChecklistTasksDone.html">ChecklistTasksDone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ChecklistTasksAdded.html">ChecklistTasksAdded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Location.html">Location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Venue.html">Venue</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Gift.html">Gift</a></li>
@@ -539,6 +551,7 @@
 <li class="toctree-l2"><a class="reference internal" href="VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DirectMessagePriceChanged.html">DirectMessagePriceChanged</a></li>
 <li class="toctree-l2"><a class="reference internal" href="PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="EmojiStatus.html">EmojiStatus</a></li>
@@ -546,6 +559,7 @@
 <li class="toctree-l2"><a class="reference internal" href="InviteLinkImporter.html">InviteLinkImporter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Restriction.html">Restriction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="RtmpUrl.html">RtmpUrl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DirectMessagesTopic.html">DirectMessagesTopic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="CallbackGame.html">CallbackGame</a></li>
 <li class="toctree-l2"><a class="reference internal" href="CallbackQuery.html">CallbackQuery</a></li>
 <li class="toctree-l2"><a class="reference internal" href="CopyTextButton.html">CopyTextButton</a></li>
@@ -899,10 +913,10 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>text</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Option text, 1-100 characters</p></li>
+<li><p><strong>text</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Option text, 1-100 characters after entity parsing.</p></li>
 <li><p><strong>text_parse_mode</strong> (<a class="reference internal" href="../enums/ParseMode.html#pyrogram.enums.ParseMode" title="pyrogram.enums.ParseMode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ParseMode</span></code></a>, <em>optional</em>) – By default, texts are parsed using both Markdown and HTML styles.
 You can combine both syntaxes together.
-Currently, only custom emoji entities are allowed.</p></li>
+Currently, only custom emoji entities are allowed to be added and only by Upgraded bots OR Premium users.</p></li>
 <li><p><strong>text_entities</strong> (List of <a class="reference internal" href="MessageEntity.html#pyrogram.types.MessageEntity" title="pyrogram.types.MessageEntity"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MessageEntity</span></code></a>, <em>optional</em>) – List of special entities that appear in the poll option text, which can be specified instead of <em>text_parse_mode</em>.</p></li>
 </ul>
 </dd>
@@ -946,7 +960,7 @@ Currently, only custom emoji entities are allowed.</p></li>
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/91e6454" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               

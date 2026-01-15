@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../../genindex.html" /><link rel="search" title="Search" href="../../search.html" /><link rel="next" title="send_document()" href="send_document.html" /><link rel="prev" title="send_photo()" href="send_photo.html" />
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>send_audio() - PyroTGFork 2.2.12 Layer 203</title>
+        <title>send_audio() - PyroTGFork 2.2.17 Layer 221</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
@@ -126,7 +126,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
+      <a href="../../index.html"><div class="brand">PyroTGFork 2.2.17 Layer 221</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -152,7 +152,7 @@
     <img class="sidebar-logo" src="../../_static/pyrogram.png" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  <span class="sidebar-brand-text">PyroTGFork 2.2.17 Layer 221</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -283,6 +283,9 @@
 <li class="toctree-l2"><a class="reference internal" href="translate_message_text.html">translate_message_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="delete_chat_history.html">delete_chat_history</a></li>
 <li class="toctree-l2"><a class="reference internal" href="send_screenshot_notification.html">send_screenshot_notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="send_checklist.html">send_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="edit_message_checklist.html">edit_message_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mark_checklist_tasks_as_done.html">mark_checklist_tasks_as_done</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="restrict_chat_member.html">restrict_chat_member</a></li>
@@ -303,6 +306,9 @@
 <li class="toctree-l2"><a class="reference internal" href="get_chat_members.html">get_chat_members</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_chat_members_count.html">get_chat_members_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_chat_member.html">get_chat_member</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_direct_messages_topics_by_id.html">get_direct_messages_topics_by_id</a></li>
+<li class="toctree-l2"><a class="reference internal" href="get_direct_messages_topics.html">get_direct_messages_topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="set_chat_direct_messages_group.html">set_chat_direct_messages_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_dialogs.html">get_dialogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="get_dialogs_count.html">get_dialogs_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="set_chat_username.html">set_chat_username</a></li>
@@ -478,6 +484,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/InputPollOption.html">InputPollOption</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Poll.html">Poll</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PollAnswer.html">PollAnswer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTask.html">ChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/Checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputChecklistTask.html">InputChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/InputChecklist.html">InputChecklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTasksDone.html">ChecklistTasksDone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/ChecklistTasksAdded.html">ChecklistTasksAdded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Location.html">Location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Venue.html">Venue</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Gift.html">Gift</a></li>
@@ -539,6 +551,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/DirectMessagePriceChanged.html">DirectMessagePriceChanged</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/EmojiStatus.html">EmojiStatus</a></li>
@@ -546,6 +559,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../types/InviteLinkImporter.html">InviteLinkImporter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/Restriction.html">Restriction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/RtmpUrl.html">RtmpUrl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../types/DirectMessagesTopic.html">DirectMessagesTopic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CallbackGame.html">CallbackGame</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CallbackQuery.html">CallbackQuery</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../types/CopyTextButton.html">CopyTextButton</a></li>
@@ -905,7 +919,7 @@
 <li><p><strong>chat_id</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> | <code class="docutils literal notranslate"><span class="pre">str</span></code>) – Unique identifier (int) or username (str) of the target chat.
 For your personal cloud (Saved Messages) you can simply use “me” or “self”.
 For a contact that exists in your Telegram address book you can use his phone number (str).</p></li>
-<li><p><strong>audio</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code> | <a class="reference external" href="https://docs.python.org/3/library/io.html#io.BytesIO" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">io.BytesIO</span></code></a>) – Audio file to send.
+<li><p><strong>audio</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code> | <a class="reference external" href="https://docs.python.org/3/library/io.html#io.BytesIO" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">io.BytesIO</span></code></a>) – Audio file to send.
 Pass a file_id as string to send an audio file that exists on the Telegram servers,
 pass an HTTP URL as a string for Telegram to get an audio file from the Internet,
 pass a file path as string to upload a new audio file that exists on your local machine, or
@@ -917,7 +931,7 @@ You can combine both syntaxes together.</p></li>
 <li><p><strong>duration</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, <em>optional</em>) – Duration of the audio in seconds.</p></li>
 <li><p><strong>performer</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, <em>optional</em>) – Performer.</p></li>
 <li><p><strong>title</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, <em>optional</em>) – Track name.</p></li>
-<li><p><strong>thumb</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code> | <a class="reference external" href="https://docs.python.org/3/library/io.html#io.BytesIO" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">io.BytesIO</span></code></a>, <em>optional</em>) – Thumbnail of the music file album cover.
+<li><p><strong>thumb</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code> | <a class="reference external" href="https://docs.python.org/3/library/io.html#io.BytesIO" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">io.BytesIO</span></code></a>, <em>optional</em>) – Thumbnail of the music file album cover.
 The thumbnail should be in JPEG format and less than 200 KB in size.
 A thumbnail’s width and height should not exceed 320 pixels.
 Thumbnails can’t be reused and can be only uploaded as a new file.</p></li>
@@ -934,7 +948,7 @@ Use the <a class="reference internal" href="get_send_as_chats.html#pyrogram.Clie
 This setting applies to the current message and will remain effective for future messages unless explicitly changed.
 To set this behavior permanently for all messages, use <a class="reference internal" href="set_send_as_chat.html#pyrogram.Client.set_send_as_chat" title="pyrogram.Client.set_send_as_chat"><code class="xref py py-meth docutils literal notranslate"><span class="pre">set_send_as_chat()</span></code></a>.</p></li>
 <li><p><strong>message_effect_id</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="docutils literal notranslate"><span class="pre">64-bit</span></code>, <em>optional</em>) – Unique identifier of the message effect to be added to the message; for private chats only.</p></li>
-<li><p><strong>schedule_date</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.13)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">datetime</span></code></a>, <em>optional</em>) – Date when the message will be automatically sent.</p></li>
+<li><p><strong>schedule_date</strong> (<a class="reference external" href="https://docs.python.org/3/library/datetime.html#datetime.datetime" title="(in Python v3.14)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">datetime</span></code></a>, <em>optional</em>) – Date when the message will be automatically sent.</p></li>
 <li><p><strong>protect_content</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – Pass True if the content of the message must be protected from forwarding and saving; for bots only.</p></li>
 <li><p><strong>allow_paid_broadcast</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, <em>optional</em>) – Pass True to allow the message to ignore regular broadcast limits for a small fee; for bots only</p></li>
 <li><p><strong>paid_message_star_count</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, <em>optional</em>) – The number of Telegram Stars the user agreed to pay to send the messages.</p></li>
@@ -1020,7 +1034,7 @@ case the upload is deliberately stopped with <a class="reference internal" href=
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/91e6454" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               

@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="../../../genindex.html" /><link rel="search" title="Search" href="../../../search.html" /><link rel="next" title="auth.SentCodeSuccess" href="sent-code-success.html" /><link rel="prev" title="auth.SentCode" href="sent-code.html" />
 
     <link rel="shortcut icon" href="../../../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2023.09.10 -->
-        <title>auth.SentCodePaymentRequired - PyroTGFork 2.2.12 Layer 203</title>
+        <title>auth.SentCodePaymentRequired - PyroTGFork 2.2.17 Layer 221</title>
       <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../../../_static/styles/furo.css?v=135e06be" />
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css?v=76b2166b" />
@@ -126,7 +126,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../../index.html"><div class="brand">PyroTGFork 2.2.12 Layer 203</div></a>
+      <a href="../../../index.html"><div class="brand">PyroTGFork 2.2.17 Layer 221</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -152,7 +152,7 @@
     <img class="sidebar-logo" src="../../../_static/pyrogram.png" alt="Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">PyroTGFork 2.2.12 Layer 203</span>
+  <span class="sidebar-brand-text">PyroTGFork 2.2.17 Layer 221</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -283,6 +283,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/translate_message_text.html">translate_message_text</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/delete_chat_history.html">delete_chat_history</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/send_screenshot_notification.html">send_screenshot_notification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/send_checklist.html">send_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/edit_message_checklist.html">edit_message_checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/mark_checklist_tasks_as_done.html">mark_checklist_tasks_as_done</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/ban_chat_member.html">ban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/unban_chat_member.html">unban_chat_member</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/restrict_chat_member.html">restrict_chat_member</a></li>
@@ -303,6 +306,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_chat_members.html">get_chat_members</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_chat_members_count.html">get_chat_members_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_chat_member.html">get_chat_member</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_direct_messages_topics_by_id.html">get_direct_messages_topics_by_id</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_direct_messages_topics.html">get_direct_messages_topics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/methods/set_chat_direct_messages_group.html">set_chat_direct_messages_group</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_dialogs.html">get_dialogs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/get_dialogs_count.html">get_dialogs_count</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/methods/set_chat_username.html">set_chat_username</a></li>
@@ -478,6 +484,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/InputPollOption.html">InputPollOption</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Poll.html">Poll</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/PollAnswer.html">PollAnswer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/ChecklistTask.html">ChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/Checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/InputChecklistTask.html">InputChecklistTask</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/InputChecklist.html">InputChecklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/ChecklistTasksDone.html">ChecklistTasksDone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/ChecklistTasksAdded.html">ChecklistTasksAdded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Location.html">Location</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Venue.html">Venue</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Gift.html">Gift</a></li>
@@ -539,6 +551,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/VideoChatEnded.html">VideoChatEnded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/VideoChatParticipantsInvited.html">VideoChatParticipantsInvited</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/PaidMessagePriceChanged.html">PaidMessagePriceChanged</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/DirectMessagePriceChanged.html">DirectMessagePriceChanged</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/PaidMessagesRefunded.html">PaidMessagesRefunded</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Dialog.html">Dialog</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/EmojiStatus.html">EmojiStatus</a></li>
@@ -546,6 +559,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/InviteLinkImporter.html">InviteLinkImporter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/Restriction.html">Restriction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/RtmpUrl.html">RtmpUrl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../api/types/DirectMessagesTopic.html">DirectMessagesTopic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/CallbackGame.html">CallbackGame</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/CallbackQuery.html">CallbackQuery</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../api/types/CopyTextButton.html">CopyTextButton</a></li>
@@ -899,8 +913,8 @@
 <p>Constructor of <a class="reference internal" href="../../base/auth/sent-code.html#pyrogram.raw.base.auth.SentCode" title="pyrogram.raw.base.auth.SentCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SentCode</span></code></a>.</p>
 <dl class="simple">
 <dt>Details:</dt><dd><ul class="simple">
-<li><p>Layer: <code class="docutils literal notranslate"><span class="pre">203</span></code></p></li>
-<li><p>ID: <code class="docutils literal notranslate"><span class="pre">D7CEF980</span></code></p></li>
+<li><p>Layer: <code class="docutils literal notranslate"><span class="pre">221</span></code></p></li>
+<li><p>ID: <code class="docutils literal notranslate"><span class="pre">E0955A3C</span></code></p></li>
 </ul>
 </dd>
 </dl>
@@ -909,11 +923,15 @@
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>store_product</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – N/A</p></li>
 <li><p><strong>phone_code_hash</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – N/A</p></li>
+<li><p><strong>support_email_address</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – N/A</p></li>
+<li><p><strong>support_email_subject</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – N/A</p></li>
+<li><p><strong>currency</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – N/A</p></li>
+<li><p><strong>amount</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> <code class="docutils literal notranslate"><span class="pre">64-bit</span></code>) – N/A</p></li>
 </ul>
 </dd>
 </dl>
 <dl>
-<dt>Functions:</dt><dd><p>This object can be returned by 6 functions.</p>
+<dt>Functions:</dt><dd><p>This object can be returned by 7 functions.</p>
 <div class="table-wrapper autosummary longtable docutils container">
 <table class="autosummary longtable docutils align-default">
 <tbody>
@@ -926,13 +944,16 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="../../functions/auth/reset-login-email.html#pyrogram.raw.functions.auth.ResetLoginEmail" title="pyrogram.raw.functions.auth.ResetLoginEmail"><code class="xref py py-obj docutils literal notranslate"><span class="pre">auth.ResetLoginEmail</span></code></a></p></td>
 <td><p>Telegram API function.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../../functions/account/send-change-phone-code.html#pyrogram.raw.functions.account.SendChangePhoneCode" title="pyrogram.raw.functions.account.SendChangePhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendChangePhoneCode</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../../functions/auth/check-paid-auth.html#pyrogram.raw.functions.auth.CheckPaidAuth" title="pyrogram.raw.functions.auth.CheckPaidAuth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">auth.CheckPaidAuth</span></code></a></p></td>
 <td><p>Telegram API function.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="../../functions/account/send-confirm-phone-code.html#pyrogram.raw.functions.account.SendConfirmPhoneCode" title="pyrogram.raw.functions.account.SendConfirmPhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendConfirmPhoneCode</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="../../functions/account/send-change-phone-code.html#pyrogram.raw.functions.account.SendChangePhoneCode" title="pyrogram.raw.functions.account.SendChangePhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendChangePhoneCode</span></code></a></p></td>
 <td><p>Telegram API function.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../../functions/account/send-verify-phone-code.html#pyrogram.raw.functions.account.SendVerifyPhoneCode" title="pyrogram.raw.functions.account.SendVerifyPhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendVerifyPhoneCode</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="../../functions/account/send-confirm-phone-code.html#pyrogram.raw.functions.account.SendConfirmPhoneCode" title="pyrogram.raw.functions.account.SendConfirmPhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendConfirmPhoneCode</span></code></a></p></td>
+<td><p>Telegram API function.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="../../functions/account/send-verify-phone-code.html#pyrogram.raw.functions.account.SendVerifyPhoneCode" title="pyrogram.raw.functions.account.SendVerifyPhoneCode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">account.SendVerifyPhoneCode</span></code></a></p></td>
 <td><p>Telegram API function.</p></td>
 </tr>
 </tbody>
@@ -979,7 +1000,7 @@
           </div>
           <div class="right-details">
             <div class="icons">
-              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/e83f03a" aria-label="GitHub"></a>
+              <a class="muted-link fa-brands fa-solid fa-github fa-2x" href="https://github.com/TelegramPlayGround/pyrogram/tree/91e6454" aria-label="GitHub"></a>
               <a class="muted-link fa-brands fa-solid fa-telegram fa-2x" href="https://PyroTGFork.t.me/2" aria-label="Telegram Channel"></a>
               <a class="muted-link fa-brands fa-solid fa-python fa-2x" href="https://pypi.org/project/pyrotgfork/" aria-label=""></a>
               
